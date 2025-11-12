@@ -1,0 +1,118 @@
+{
+  "type": "element",
+  "tag": "root",
+  "attributes": {
+    "metadata": {}
+  },
+  "children": [
+    {
+      "type": "element",
+      "tag": "h1",
+      "attributes": {},
+      "children": [
+        {
+          "type": "text",
+          "text": "Hello World"
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attributes": {},
+      "children": [
+        {
+          "type": "text",
+          "text": "This is a"
+        },
+        {
+          "type": "element",
+          "tag": "strong",
+          "attributes": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "simple"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "test with"
+        },
+        {
+          "type": "element",
+          "tag": "em",
+          "attributes": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "formatting"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "p",
+      "attributes": {},
+      "children": [
+        {
+          "type": "text",
+          "text": "Here is a"
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attributes": {
+            "href": "https://example.com"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "link"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "ul",
+      "attributes": {},
+      "children": [
+        {
+          "type": "element",
+          "tag": "li",
+          "attributes": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Item 1"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "li",
+          "attributes": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Item 2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
