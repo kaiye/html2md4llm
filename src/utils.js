@@ -26,6 +26,10 @@ export function createElement(tag, attributes = {}, children = []) {
   return { type: 'element', tag, attributes, children, parent: null };
 }
 
+function cleanText(text) {
+  return text.replace(/[\u200E\u200F\u202A-\u202E]/g, '');
+}
+
 export function createText(text) {
-  return { type: 'text', text, parent: null };
+  return { type: 'text', text: cleanText(text), parent: null };
 }

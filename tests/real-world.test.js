@@ -1,8 +1,15 @@
 import { readdirSync, readFileSync, writeFileSync, mkdirSync } from 'fs';
-import { main } from '../src/main.js';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
+import { pathToFileURL } from 'url';
 
-const inputDir = 'tests/fixtures';
-const outputDir = 'tests/output';
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const rootDir = join(__dirname, '..');
+
+const inputDir = join(rootDir, 'tests/fixtures');
+const outputDir = join(rootDir, 'tests/output');
+
+const { main } = await import(pathToFileURL(join(rootDir, 'src/main.js')).href);
 
 mkdirSync(outputDir, { recursive: true });
 

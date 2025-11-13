@@ -1,0 +1,190 @@
+{
+  "type": "element",
+  "tag": "html",
+  "attributes": {},
+  "children": [
+    {
+      "type": "element",
+      "tag": "head",
+      "attributes": {},
+      "children": [
+        {
+          "type": "element",
+          "tag": "title",
+          "attributes": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Format Test"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "body",
+      "attributes": {},
+      "children": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attributes": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Original",
+              "flattenedTags": [
+                "span"
+              ],
+              "flattenedClasses": []
+            },
+            {
+              "type": "text",
+              "text": "yekai",
+              "flattenedTags": [
+                "span"
+              ],
+              "flattenedClasses": []
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attributes": {
+                "href": "javascript:void(0);"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "猫哥ai编程"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "******",
+              "flattenedTags": [
+                "span"
+              ],
+              "flattenedClasses": []
+            },
+            {
+              "type": "text",
+              "text": "Claude Code 命令行工具是当前最热门最聪明的 AI 编程工具。",
+              "flattenedTags": [
+                "span"
+              ],
+              "flattenedClasses": []
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "第 1 步：注册登录 PackyCode，领取 $1 体验额度",
+          "flattenedTags": [
+            "section",
+            "span"
+          ],
+          "flattenedClasses": []
+        },
+        {
+          "type": "text",
+          "text": "https://www.packyapi.com/register?aff=sf14",
+          "flattenedTags": [
+            "section",
+            "span"
+          ],
+          "flattenedClasses": []
+        },
+        {
+          "type": "text",
+          "text": "第 2 步：在控制台创建一个新的令牌 ",
+          "flattenedTags": [
+            "p",
+            "span",
+            "span"
+          ],
+          "flattenedClasses": []
+        },
+        {
+          "type": "element",
+          "tag": "pre",
+          "attributes": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "{\"env\": {\"ANTHROPIC_AUTH_TOKEN\": \"your-api-key-here\",}}"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attributes": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "*",
+              "flattenedTags": [
+                "span"
+              ],
+              "flattenedClasses": [
+                "icon"
+              ]
+            },
+            {
+              "type": "text",
+              "text": "*",
+              "flattenedTags": [
+                "span"
+              ],
+              "flattenedClasses": [
+                "icon"
+              ]
+            },
+            {
+              "type": "text",
+              "text": "*",
+              "flattenedTags": [
+                "span"
+              ],
+              "flattenedClasses": [
+                "icon"
+              ]
+            },
+            {
+              "type": "text",
+              "text": "*",
+              "flattenedTags": [
+                "span"
+              ],
+              "flattenedClasses": [
+                "icon"
+              ]
+            },
+            {
+              "type": "text",
+              "text": "*",
+              "flattenedTags": [
+                "span"
+              ],
+              "flattenedClasses": [
+                "icon"
+              ]
+            },
+            {
+              "type": "text",
+              "text": "*",
+              "flattenedTags": [
+                "span"
+              ],
+              "flattenedClasses": [
+                "icon"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

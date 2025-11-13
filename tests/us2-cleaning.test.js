@@ -21,12 +21,15 @@ assert.ok(!result2.includes('iframe'), 'Should remove iframe');
 assert.ok(result2.includes('Text'), 'Should keep text content');
 console.log('✓ Style and iframe removal');
 
-// Test 3: Preserve metadata
-const html3 = '<html><head><title>My Title</title><meta name="description" content="My desc"><meta name="keywords" content="a,b,c"></head><body><p>Content</p></body></html>';
+// Test 3: Preserve description and keywords meta tags
+const html3 = '<html><head><title>My Title</title><meta name="description" content="My desc"><meta name="keywords" content="a,b,c"><meta name="viewport" content="width=device-width"></head><body><p>Content</p></body></html>';
 const tree3 = parse(html3);
-assert.strictEqual(tree3.metadata.title, 'My Title', 'Should extract title');
-assert.strictEqual(tree3.metadata.description, 'My desc', 'Should extract description');
-assert.strictEqual(tree3.metadata.keywords, 'a,b,c', 'Should extract keywords');
+const head = tree3.children.find(c => c.tag === 'head');
+const metas = head.children.filter(c => c.tag === 'meta');
+assert.strictEqual(metas.length, 2, 'Should keep 2 meta tags (description and keywords)');
+assert.ok(metas.some(m => m.attributes.name === 'description' && m.attributes.content === 'My desc'), 'Should keep description meta');
+assert.ok(metas.some(m => m.attributes.name === 'keywords' && m.attributes.content === 'a,b,c'), 'Should keep keywords meta');
+assert.ok(!metas.some(m => m.attributes.name === 'viewport'), 'Should remove viewport meta');
 console.log('✓ Metadata extraction');
 
 console.log('All US2 tests passed!');

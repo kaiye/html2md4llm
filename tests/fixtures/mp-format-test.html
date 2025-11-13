@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head><title>Format Test</title></head>
+<body>
+  <!-- 问题1: span 和 div 之间缺少空格 -->
+  <div>
+    <span>Original</span>
+    <span>yekai</span>
+    <a href="javascript:void(0);">猫哥ai编程</a>
+    <span>******</span>
+    <span>Claude Code 命令行工具是当前最热门最聪明的 AI 编程工具。</span>
+  </div>
+
+  <!-- 问题2: section 标签应该产生段落分隔 -->
+  <section><span>第 1 步：注册登录 PackyCode，领取 $1 体验额度</span></section>
+  <section><span>https://www.packyapi.com/register?aff=sf14</span></section>
+  <p><span><span style="font-weight: bold;">第 2 步：在控制台创建一个新的令牌&nbsp;</span></span></p>
+
+  <!-- 问题3: 代码块内的多个 span 被错误处理 -->
+  <pre><code><span>{</span></code><code><span>  "env": {</span></code><code><span>    "ANTHROPIC_AUTH_TOKEN": "your-api-key-here",</span></code><code><span>  }</span></code><code><span>}</span></code></pre>
+
+  <!-- 问题4: 连续的装饰性 span -->
+  <div>
+    <span class="icon">*</span>
+    <span class="icon">*</span>
+    <span class="icon">*</span>
+    <span class="icon">*</span>
+    <span class="icon">*</span>
+    <span class="icon">*</span>
+  </div>
+</body>
+</html>

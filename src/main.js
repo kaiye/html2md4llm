@@ -19,7 +19,7 @@ export function main(htmlInput, options = {}) {
   }
 
   // Parse HTML to virtual DOM
-  let tree = parse(htmlInput);
+  let tree = parse(htmlInput, options.removeAttributes);
 
   // Apply extraction strategy
   if (strategy === 'list') {

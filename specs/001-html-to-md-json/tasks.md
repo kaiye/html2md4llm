@@ -266,6 +266,18 @@ With multiple developers:
 
 ---
 
+## Phase 9: Bug Fixes and Edge Cases (US2 Improvements)
+
+### Tasks
+
+- [x] T058 [P2] [US2] Add SVG tag filtering to parser pre-cleaning step in `src/parser.js`
+- [x] T059 [P2] [US2] Add HTML comment removal regex to parser pre-cleaning step in `src/parser.js`
+- [x] T060 [P2] [US2] Expand void element list to include `source` and other self-closing tags in `src/parser.js`
+- [x] T061 [P2] [US2] Create edge case tests in `tests/us2-edge-cases.test.js` for SVG, comments, and self-closing tags
+- [x] T062 [P2] [US2] Verify apple-frag-1.html converts correctly with no nested source/img tags
+
+---
+
 ## Notes
 
 - [P] tasks = different files, no dependencies

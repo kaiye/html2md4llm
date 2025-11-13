@@ -38,6 +38,9 @@ A developer processes web pages that contain scripts, styles, and other non-cont
 2. **Given** HTML with `<style>` blocks and `<iframe>` elements, **When** converted, **Then** these elements and their content are filtered out
 3. **Given** HTML with `<head>` section containing `<title>` and meta tags (description, keywords), **When** converted, **Then** these metadata elements are preserved in the output
 4. **Given** HTML with inline style attributes, **When** cleaned, **Then** style attributes are removed but element content is preserved
+5. **Given** HTML containing `<svg>` tags with nested content, **When** the function is called, **Then** all SVG elements and their content are removed from the output
+6. **Given** HTML with comments `<!-- comment -->`, **When** converted, **Then** all HTML comments are removed from the output
+7. **Given** HTML with self-closing tags in various formats (`<source>`, `<source/>`, `<source />`), **When** parsed, **Then** these tags do not create child nodes and subsequent siblings are correctly parsed
 
 ---
 
@@ -100,6 +103,9 @@ A developer needs structured data representation instead of Markdown text. They 
 - What happens when strategy is "article" but all divs have no text content?
 - How are deeply nested structures (e.g., 20+ levels) handled without stack overflow?
 - What if HTML contains extremely large documents (e.g., 10MB+ of text)?
+- **[ISSUE]** SVG tags and their content should be filtered out during HTML cleaning (visual elements not relevant for text extraction)
+- **[ISSUE]** HTML comments (`<!-- -->`) should be removed during HTML cleaning
+- **[ISSUE]** Self-closing tags (source, img, input, etc.) must be correctly parsed without creating child nodes, regardless of syntax: `<source>`, `<source/>`, `<source />`, or missing closing tag
 
 ## Requirements *(mandatory)*
 
@@ -108,7 +114,7 @@ A developer needs structured data representation instead of Markdown text. They 
 - **FR-001**: System MUST provide a main function that accepts two parameters: an HTML-like text string and an options object
 - **FR-002**: System MUST support an options parameter with an `outputFormat` field that defaults to "markdown"
 - **FR-003**: System MUST convert HTML text to Markdown format when outputFormat is "markdown" (default)
-- **FR-004**: System MUST remove script, style, and iframe tags and their content during HTML cleaning
+- **FR-004**: System MUST remove script, style, iframe, svg tags and HTML comments during HTML cleaning
 - **FR-005**: System MUST preserve title and meta tags (description, keywords) from the HTML head section
 - **FR-006**: System MUST parse cleaned HTML into a virtual DOM tree structure (AST)
 - **FR-007**: System MUST transform the virtual DOM tree to filter out invalid or unwanted node properties
@@ -120,6 +126,7 @@ A developer needs structured data representation instead of Markdown text. They 
 - **FR-013**: System MUST handle common HTML elements: headings (h1-h6), paragraphs (p), links (a), bold (strong/b), italic (em/i), lists (ul/ol/li), code (code/pre)
 - **FR-014**: System MUST use only Node.js built-in modules and standard JavaScript (no external npm dependencies)
 - **FR-015**: System MUST use regex and string manipulation for HTML parsing (no DOM API or browser-specific libraries)
+- **FR-016**: System MUST correctly handle self-closing/void elements (source, img, input, br, hr, meta, link) without creating child nodes, supporting multiple syntax variations
 
 ### Key Entities
 

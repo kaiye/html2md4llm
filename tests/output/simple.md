@@ -6,4 +6,3 @@ Here is a[link](https://example.com).
 
 - Item 1
 - Item 2
-

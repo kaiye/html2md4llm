@@ -1,9 +1,7 @@
 {
   "type": "element",
   "tag": "root",
-  "attributes": {
-    "metadata": {}
-  },
+  "attributes": {},
   "children": [
     {
       "type": "element",

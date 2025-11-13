@@ -1,0 +1,390 @@
+{
+  "type": "element",
+  "tag": "root",
+  "attributes": {},
+  "children": [
+    {
+      "type": "element",
+      "tag": "picture",
+      "attributes": {
+        "class": "svelte-uduhys"
+      },
+      "children": [
+        {
+          "type": "element",
+          "tag": "img",
+          "attributes": {
+            "alt": "",
+            "class": "artwork-component__contents artwork-component__image svelte-uduhys",
+            "src": "/assets/artwork/1x1.gif",
+            "role": "presentation",
+            "width": "24",
+            "height": "24"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Word",
+      "flattenedTags": [
+        "span"
+      ],
+      "flattenedClasses": [
+        "svelte-11ovwt1"
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "div",
+      "attributes": {
+        "class": "segment-selector svelte-11ovwt1",
+        "aria-label": "All Games"
+      },
+      "children": [
+        {
+          "type": "element",
+          "tag": "a",
+          "attributes": {
+            "aria-label": "Currently filtering by Free apps",
+            "href": "https://apps.apple.com/us/iphone/charts/6014?chart=top-free"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "Free",
+              "flattenedTags": [
+                "span"
+              ],
+              "flattenedClasses": [
+                "segment svelte-11ovwt1 selected"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "a",
+          "attributes": {
+            "aria-label": "Filter by Paid apps",
+            "href": "https://apps.apple.com/us/iphone/charts/6014?chart=top-paid"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "Paid",
+              "flattenedTags": [
+                "span"
+              ],
+              "flattenedClasses": [
+                "segment svelte-11ovwt1"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "ul",
+      "attributes": {
+        "class": "grid svelte-7iyek8"
+      },
+      "children": [
+        {
+          "type": "element",
+          "tag": "li",
+          "attributes": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "a",
+              "attributes": {
+                "aria-label": "Solitaire Associations Journey",
+                "href": "https://apps.apple.com/us/app/solitaire-associations-journey/id6748950306"
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "article",
+                  "attributes": {
+                    "class": "svelte-14lvfi0"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "1",
+                      "flattenedTags": [
+                        "div"
+                      ],
+                      "flattenedClasses": [
+                        "ordinal svelte-14lvfi0"
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "picture",
+                      "attributes": {
+                        "class": "svelte-uduhys"
+                      },
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "img",
+                          "attributes": {
+                            "alt": "",
+                            "class": "artwork-component__contents artwork-component__image svelte-uduhys",
+                            "src": "/assets/artwork/1x1.gif",
+                            "role": "presentation",
+                            "width": "100",
+                            "height": "100"
+                          },
+                          "children": []
+                        }
+                      ],
+                      "flattenedTags": [
+                        "div",
+                        "div",
+                        "div"
+                      ],
+                      "flattenedClasses": [
+                        "app-icon-container svelte-14lvfi0",
+                        "app-icon svelte-166xw8t     rounded-rect-prerendered",
+                        "artwork-component artwork-component--aspect-ratio artwork-component--orientation-square svelte-uduhys    artwork-component--fullwidth    artwork-component--has-borders artwork-component--no-anchor"
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "div",
+                      "attributes": {
+                        "class": "metadata-container svelte-14lvfi0"
+                      },
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "h3",
+                          "attributes": {
+                            "title": "Solitaire Associations Journey",
+                            "class": "svelte-14lvfi0"
+                          },
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Solitaire Associations Journey"
+                            }
+                          ],
+                          "flattenedTags": [
+                            "div",
+                            "span"
+                          ],
+                          "flattenedClasses": [
+                            "multiline-clamp svelte-1a7gcr6",
+                            "multiline-clamp__text svelte-1a7gcr6"
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "Word Solitaire Card Game",
+                          "flattenedTags": [
+                            "div",
+                            "span",
+                            "p"
+                          ],
+                          "flattenedClasses": [
+                            "multiline-clamp svelte-1a7gcr6",
+                            "multiline-clamp__text svelte-1a7gcr6",
+                            "svelte-14lvfi0"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "View",
+                      "flattenedTags": [
+                        "div",
+                        "span"
+                      ],
+                      "flattenedClasses": [
+                        "button-container svelte-14lvfi0",
+                        "get-button gray"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "li",
+          "attributes": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "a",
+              "attributes": {
+                "aria-label": "Squad Busters",
+                "href": "https://apps.apple.com/us/app/squad-busters/id1668983788"
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "article",
+                  "attributes": {
+                    "class": "svelte-14lvfi0"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "2",
+                      "flattenedTags": [
+                        "div"
+                      ],
+                      "flattenedClasses": [
+                        "ordinal svelte-14lvfi0"
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "picture",
+                      "attributes": {
+                        "class": "svelte-uduhys"
+                      },
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "img",
+                          "attributes": {
+                            "alt": "",
+                            "class": "artwork-component__contents artwork-component__image svelte-uduhys",
+                            "src": "/assets/artwork/1x1.gif",
+                            "role": "presentation",
+                            "width": "100",
+                            "height": "100"
+                          },
+                          "children": []
+                        }
+                      ],
+                      "flattenedTags": [
+                        "div",
+                        "div",
+                        "div"
+                      ],
+                      "flattenedClasses": [
+                        "app-icon-container svelte-14lvfi0",
+                        "app-icon svelte-166xw8t     rounded-rect-prerendered",
+                        "artwork-component artwork-component--aspect-ratio artwork-component--orientation-square svelte-uduhys    artwork-component--fullwidth    artwork-component--has-borders artwork-component--no-anchor"
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "div",
+                      "attributes": {
+                        "class": "metadata-container svelte-14lvfi0"
+                      },
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "h3",
+                          "attributes": {
+                            "title": "Squad Busters",
+                            "class": "svelte-14lvfi0"
+                          },
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Squad Busters"
+                            }
+                          ],
+                          "flattenedTags": [
+                            "div",
+                            "span"
+                          ],
+                          "flattenedClasses": [
+                            "multiline-clamp svelte-1a7gcr6",
+                            "multiline-clamp__text svelte-1a7gcr6"
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "Action Strategy Battles Online",
+                          "flattenedTags": [
+                            "div",
+                            "span",
+                            "p"
+                          ],
+                          "flattenedClasses": [
+                            "multiline-clamp svelte-1a7gcr6",
+                            "multiline-clamp__text svelte-1a7gcr6",
+                            "svelte-14lvfi0"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "View",
+                      "flattenedTags": [
+                        "div",
+                        "span"
+                      ],
+                      "flattenedClasses": [
+                        "button-container svelte-14lvfi0",
+                        "get-button gray"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "li",
+          "attributes": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "a",
+              "attributes": {
+                "aria-label": "Clash Royale",
+                "href": "https://apps.apple.com/us/app/clash-royale/id1053012308"
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "article",
+                  "attributes": {
+                    "class": "svelte-14lvfi0"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "3",
+                      "flattenedTags": [
+                        "div"
+                      ],
+                      "flattenedClasses": [
+                        "ordinal svelte-14lvfi0"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "flattenedTags": [
+        "section"
+      ],
+      "flattenedClasses": [
+        "shelf svelte-1svznay    padding-top padding-bottom"
+      ]
+    }
+  ]
+}
