@@ -12,9 +12,26 @@ Convert HTML to clean Markdown or JSON format, optimized for LLM processing.
 
 ## Installation
 
+### NPM Package
+
 ```bash
 npm install html2md4llm
 ```
+
+### Standalone Script
+
+Download `dist/html2md4llm.min.js` and include it directly:
+
+```html
+<script src="html2md4llm.min.js"></script>
+<script>
+  const result = html2md4llm('<h1>Hello</h1>');
+</script>
+```
+
+### Dify Plugin
+
+Install from the plugin marketplace or import from this repository's `plugin/` directory.
 
 ## Usage
 

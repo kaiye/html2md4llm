@@ -8,7 +8,8 @@
     ".": "./src/main.js"
   },
   "scripts": {
-    "test": "node tests/run-tests.js"
+    "test": "node tests/run-tests.js",
+    "build": "node build.js"
   },
   "keywords": [
     "html",
@@ -30,7 +31,12 @@
   },
   "files": [
     "src/**/*",
+    "dist/**/*",
+    "plugin/**/*",
     "README.md",
     "LICENSE"
-  ]
+  ],
+  "devDependencies": {
+    "esbuild": "^0.27.0"
+  }
 }
