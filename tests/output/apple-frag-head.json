@@ -54,715 +54,390 @@
               "children": [
                 {
                   "type": "element",
-                  "tag": "div",
+                  "tag": "nav",
                   "attributes": {
-                    "class": "navigation__header svelte-13li0vp"
+                    "class": "svelte-1hs3qpl"
                   },
                   "children": [
                     {
                       "type": "element",
-                      "tag": "div",
+                      "tag": "button",
                       "attributes": {
-                        "slot": "logo",
-                        "class": "platform-selector-container svelte-8pxmff"
+                        "class": "menu-trigger svelte-bmr6en",
+                        "aria-controls": "6f17c81d-055d-40b6-b7eb-a021d19c4ab5",
+                        "aria-haspopup": "menu",
+                        "aria-expanded": "false"
                       },
                       "children": [
                         {
-                          "type": "element",
-                          "tag": "nav",
-                          "attributes": {
-                            "class": "svelte-1hs3qpl"
-                          },
-                          "children": [
-                            {
-                              "type": "element",
-                              "tag": "button",
-                              "attributes": {
-                                "class": "menu-trigger svelte-bmr6en",
-                                "aria-controls": "6f17c81d-055d-40b6-b7eb-a021d19c4ab5",
-                                "aria-haspopup": "menu",
-                                "aria-expanded": "false"
-                              },
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "text": "for iPhone",
-                                  "flattenedTags": [
-                                    "span"
-                                  ],
-                                  "flattenedClasses": [
-                                    "platform-selector-text svelte-1hs3qpl"
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "element",
-                              "tag": "ul",
-                              "attributes": {
-                                "id": "6f17c81d-055d-40b6-b7eb-a021d19c4ab5",
-                                "tabindex": "-1",
-                                "class": "menu-popover focus-visible svelte-bmr6en"
-                              },
-                              "children": [
-                                {
-                                  "type": "element",
-                                  "tag": "li",
-                                  "attributes": {
-                                    "class": "menu-item svelte-bmr6en",
-                                    "role": "presentation"
-                                  },
-                                  "children": [
-                                    {
-                                      "type": "element",
-                                      "tag": "a",
-                                      "attributes": {
-                                        "href": "https://apps.apple.com/us/iphone/today"
-                                      },
-                                      "children": [
-                                        {
-                                          "type": "element",
-                                          "tag": "span",
-                                          "attributes": {
-                                            "class": "platform-selector svelte-rn3aot is-active"
-                                          },
-                                          "children": [
-                                            {
-                                              "type": "text",
-                                              "text": "iPhone",
-                                              "flattenedTags": [
-                                                "span"
-                                              ],
-                                              "flattenedClasses": [
-                                                "platform-title svelte-rn3aot"
-                                              ]
-                                            }
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "element",
-                                  "tag": "li",
-                                  "attributes": {
-                                    "class": "menu-item svelte-bmr6en",
-                                    "role": "presentation"
-                                  },
-                                  "children": [
-                                    {
-                                      "type": "element",
-                                      "tag": "a",
-                                      "attributes": {
-                                        "href": "https://apps.apple.com/us/ipad/today"
-                                      },
-                                      "children": [
-                                        {
-                                          "type": "element",
-                                          "tag": "span",
-                                          "attributes": {
-                                            "class": "platform-selector svelte-rn3aot"
-                                          },
-                                          "children": [
-                                            {
-                                              "type": "text",
-                                              "text": "iPad",
-                                              "flattenedTags": [
-                                                "span"
-                                              ],
-                                              "flattenedClasses": [
-                                                "platform-title svelte-rn3aot"
-                                              ]
-                                            }
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "element",
-                                  "tag": "li",
-                                  "attributes": {
-                                    "class": "menu-item svelte-bmr6en",
-                                    "role": "presentation"
-                                  },
-                                  "children": [
-                                    {
-                                      "type": "element",
-                                      "tag": "a",
-                                      "attributes": {
-                                        "href": "https://apps.apple.com/us/mac/discover"
-                                      },
-                                      "children": [
-                                        {
-                                          "type": "element",
-                                          "tag": "span",
-                                          "attributes": {
-                                            "class": "platform-selector svelte-rn3aot"
-                                          },
-                                          "children": [
-                                            {
-                                              "type": "text",
-                                              "text": "Mac",
-                                              "flattenedTags": [
-                                                "span"
-                                              ],
-                                              "flattenedClasses": [
-                                                "platform-title svelte-rn3aot"
-                                              ]
-                                            }
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "element",
-                                  "tag": "li",
-                                  "attributes": {
-                                    "class": "menu-item svelte-bmr6en",
-                                    "role": "presentation"
-                                  },
-                                  "children": [
-                                    {
-                                      "type": "element",
-                                      "tag": "a",
-                                      "attributes": {
-                                        "href": "https://apps.apple.com/us/vision/apps-and-games"
-                                      },
-                                      "children": [
-                                        {
-                                          "type": "element",
-                                          "tag": "span",
-                                          "attributes": {
-                                            "class": "platform-selector svelte-rn3aot"
-                                          },
-                                          "children": [
-                                            {
-                                              "type": "text",
-                                              "text": "Vision",
-                                              "flattenedTags": [
-                                                "span"
-                                              ],
-                                              "flattenedClasses": [
-                                                "platform-title svelte-rn3aot"
-                                              ]
-                                            }
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "element",
-                                  "tag": "li",
-                                  "attributes": {
-                                    "class": "menu-item svelte-bmr6en",
-                                    "role": "presentation"
-                                  },
-                                  "children": [
-                                    {
-                                      "type": "element",
-                                      "tag": "a",
-                                      "attributes": {
-                                        "href": "https://apps.apple.com/us/watch/apps-and-games"
-                                      },
-                                      "children": [
-                                        {
-                                          "type": "element",
-                                          "tag": "span",
-                                          "attributes": {
-                                            "class": "platform-selector svelte-rn3aot"
-                                          },
-                                          "children": [
-                                            {
-                                              "type": "text",
-                                              "text": "Watch",
-                                              "flattenedTags": [
-                                                "span"
-                                              ],
-                                              "flattenedClasses": [
-                                                "platform-title svelte-rn3aot"
-                                              ]
-                                            }
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "element",
-                                  "tag": "li",
-                                  "attributes": {
-                                    "class": "menu-item svelte-bmr6en",
-                                    "role": "presentation"
-                                  },
-                                  "children": [
-                                    {
-                                      "type": "element",
-                                      "tag": "a",
-                                      "attributes": {
-                                        "href": "https://apps.apple.com/us/tv/discover"
-                                      },
-                                      "children": [
-                                        {
-                                          "type": "element",
-                                          "tag": "span",
-                                          "attributes": {
-                                            "class": "platform-selector svelte-rn3aot"
-                                          },
-                                          "children": [
-                                            {
-                                              "type": "text",
-                                              "text": "TV",
-                                              "flattenedTags": [
-                                                "span"
-                                              ],
-                                              "flattenedClasses": [
-                                                "platform-title svelte-rn3aot"
-                                              ]
-                                            }
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
+                          "type": "text",
+                          "text": "for iPhone",
+                          "flattenedTags": [
+                            "span"
+                          ],
+                          "flattenedClasses": [
+                            "platform-selector-text svelte-1hs3qpl"
                           ]
                         }
                       ]
                     }
+                  ],
+                  "flattenedTags": [
+                    "div",
+                    "div"
+                  ],
+                  "flattenedClasses": [
+                    "navigation__header svelte-13li0vp",
+                    "platform-selector-container svelte-8pxmff"
                   ]
                 },
                 {
                   "type": "element",
                   "tag": "div",
                   "attributes": {
-                    "class": "navigation__content svelte-13li0vp",
-                    "id": "navigation",
-                    "aria-hidden": "false"
+                    "class": "navigation__scrollable-container svelte-13li0vp"
                   },
                   "children": [
                     {
                       "type": "element",
-                      "tag": "div",
+                      "tag": "ul",
                       "attributes": {
-                        "class": "navigation__scrollable-container svelte-13li0vp"
+                        "class": "navigation-items__list svelte-ng61m8"
                       },
                       "children": [
                         {
                           "type": "element",
-                          "tag": "ul",
+                          "tag": "li",
                           "attributes": {
-                            "class": "navigation-items__list svelte-ng61m8"
+                            "class": "navigation-item navigation-item__LandingPage_iphone/today_Intent svelte-1a5yt87",
+                            "aria-selected": "false"
                           },
                           "children": [
                             {
                               "type": "element",
-                              "tag": "li",
+                              "tag": "a",
                               "attributes": {
-                                "class": "navigation-item navigation-item__LandingPage_iphone/today_Intent svelte-1a5yt87",
-                                "aria-selected": "false"
+                                "href": "https://apps.apple.com/us/iphone/today",
+                                "class": "navigation-item__link svelte-1a5yt87",
+                                "role": "button",
+                                "aria-pressed": "false"
                               },
                               "children": [
                                 {
-                                  "type": "element",
-                                  "tag": "a",
-                                  "attributes": {
-                                    "href": "https://apps.apple.com/us/iphone/today",
-                                    "class": "navigation-item__link svelte-1a5yt87",
-                                    "role": "button",
-                                    "aria-pressed": "false"
-                                  },
-                                  "children": [
-                                    {
-                                      "type": "element",
-                                      "tag": "div",
-                                      "attributes": {
-                                        "class": "navigation-item__content svelte-zhx7t9"
-                                      },
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "text": "Today",
-                                          "flattenedTags": [
-                                            "span"
-                                          ],
-                                          "flattenedClasses": [
-                                            "navigation-item__label svelte-zhx7t9"
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "element",
-                              "tag": "li",
-                              "attributes": {
-                                "class": "navigation-item navigation-item__LandingPage_iphone/games_Intent svelte-1a5yt87",
-                                "aria-selected": "false"
-                              },
-                              "children": [
-                                {
-                                  "type": "element",
-                                  "tag": "a",
-                                  "attributes": {
-                                    "href": "https://apps.apple.com/us/iphone/games",
-                                    "class": "navigation-item__link svelte-1a5yt87",
-                                    "role": "button",
-                                    "aria-pressed": "false"
-                                  },
-                                  "children": [
-                                    {
-                                      "type": "element",
-                                      "tag": "div",
-                                      "attributes": {
-                                        "class": "navigation-item__content svelte-zhx7t9"
-                                      },
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "text": "Games",
-                                          "flattenedTags": [
-                                            "span"
-                                          ],
-                                          "flattenedClasses": [
-                                            "navigation-item__label svelte-zhx7t9"
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "element",
-                              "tag": "li",
-                              "attributes": {
-                                "class": "navigation-item navigation-item__LandingPage_iphone/apps_Intent svelte-1a5yt87",
-                                "aria-selected": "false"
-                              },
-                              "children": [
-                                {
-                                  "type": "element",
-                                  "tag": "a",
-                                  "attributes": {
-                                    "href": "https://apps.apple.com/us/iphone/apps",
-                                    "class": "navigation-item__link svelte-1a5yt87",
-                                    "role": "button",
-                                    "aria-pressed": "false"
-                                  },
-                                  "children": [
-                                    {
-                                      "type": "element",
-                                      "tag": "div",
-                                      "attributes": {
-                                        "class": "navigation-item__content svelte-zhx7t9"
-                                      },
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "text": "Apps",
-                                          "flattenedTags": [
-                                            "span"
-                                          ],
-                                          "flattenedClasses": [
-                                            "navigation-item__label svelte-zhx7t9"
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "element",
-                              "tag": "li",
-                              "attributes": {
-                                "class": "navigation-item navigation-item__LandingPage_iphone/arcade_Intent svelte-1a5yt87",
-                                "aria-selected": "false"
-                              },
-                              "children": [
-                                {
-                                  "type": "element",
-                                  "tag": "a",
-                                  "attributes": {
-                                    "href": "https://apps.apple.com/us/iphone/arcade",
-                                    "class": "navigation-item__link svelte-1a5yt87",
-                                    "role": "button",
-                                    "aria-pressed": "false"
-                                  },
-                                  "children": [
-                                    {
-                                      "type": "element",
-                                      "tag": "div",
-                                      "attributes": {
-                                        "class": "navigation-item__content svelte-zhx7t9"
-                                      },
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "text": "Arcade",
-                                          "flattenedTags": [
-                                            "span"
-                                          ],
-                                          "flattenedClasses": [
-                                            "navigation-item__label svelte-zhx7t9"
-                                          ]
-                                        }
-                                      ]
-                                    }
+                                  "type": "text",
+                                  "text": "Today",
+                                  "flattenedTags": [
+                                    "div",
+                                    "span"
+                                  ],
+                                  "flattenedClasses": [
+                                    "navigation-item__content svelte-zhx7t9",
+                                    "navigation-item__label svelte-zhx7t9"
                                   ]
                                 }
                               ]
                             }
-                          ],
-                          "flattenedTags": [
-                            "div"
-                          ],
-                          "flattenedClasses": [
-                            "navigation-items navigation-items--primary svelte-ng61m8"
                           ]
                         },
                         {
                           "type": "element",
-                          "tag": "ul",
+                          "tag": "li",
                           "attributes": {
-                            "class": "svelte-8pxmff"
+                            "class": "navigation-item navigation-item__LandingPage_iphone/games_Intent svelte-1a5yt87",
+                            "aria-selected": "false"
                           },
                           "children": [
                             {
                               "type": "element",
-                              "tag": "li",
-                              "attributes": {},
+                              "tag": "a",
+                              "attributes": {
+                                "href": "https://apps.apple.com/us/iphone/games",
+                                "class": "navigation-item__link svelte-1a5yt87",
+                                "role": "button",
+                                "aria-pressed": "false"
+                              },
                               "children": [
                                 {
-                                  "type": "element",
-                                  "tag": "a",
-                                  "attributes": {
-                                    "href": "https://apps.apple.com/us/iphone/today"
-                                  },
-                                  "children": [
-                                    {
-                                      "type": "element",
-                                      "tag": "span",
-                                      "attributes": {
-                                        "class": "platform svelte-8pxmff is-active"
-                                      },
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "text": "iPhone",
-                                          "flattenedTags": [
-                                            "span"
-                                          ],
-                                          "flattenedClasses": [
-                                            "platform-title svelte-8pxmff"
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "element",
-                              "tag": "li",
-                              "attributes": {},
-                              "children": [
-                                {
-                                  "type": "element",
-                                  "tag": "a",
-                                  "attributes": {
-                                    "href": "https://apps.apple.com/us/ipad/today"
-                                  },
-                                  "children": [
-                                    {
-                                      "type": "element",
-                                      "tag": "span",
-                                      "attributes": {
-                                        "class": "platform svelte-8pxmff"
-                                      },
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "text": "iPad",
-                                          "flattenedTags": [
-                                            "span"
-                                          ],
-                                          "flattenedClasses": [
-                                            "platform-title svelte-8pxmff"
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "element",
-                              "tag": "li",
-                              "attributes": {},
-                              "children": [
-                                {
-                                  "type": "element",
-                                  "tag": "a",
-                                  "attributes": {
-                                    "href": "https://apps.apple.com/us/mac/discover"
-                                  },
-                                  "children": [
-                                    {
-                                      "type": "element",
-                                      "tag": "span",
-                                      "attributes": {
-                                        "class": "platform svelte-8pxmff"
-                                      },
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "text": "Mac",
-                                          "flattenedTags": [
-                                            "span"
-                                          ],
-                                          "flattenedClasses": [
-                                            "platform-title svelte-8pxmff"
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "element",
-                              "tag": "li",
-                              "attributes": {},
-                              "children": [
-                                {
-                                  "type": "element",
-                                  "tag": "a",
-                                  "attributes": {
-                                    "href": "https://apps.apple.com/us/vision/apps-and-games"
-                                  },
-                                  "children": [
-                                    {
-                                      "type": "element",
-                                      "tag": "span",
-                                      "attributes": {
-                                        "class": "platform svelte-8pxmff"
-                                      },
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "text": "Vision",
-                                          "flattenedTags": [
-                                            "span"
-                                          ],
-                                          "flattenedClasses": [
-                                            "platform-title svelte-8pxmff"
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "element",
-                              "tag": "li",
-                              "attributes": {},
-                              "children": [
-                                {
-                                  "type": "element",
-                                  "tag": "a",
-                                  "attributes": {
-                                    "href": "https://apps.apple.com/us/watch/apps-and-games"
-                                  },
-                                  "children": [
-                                    {
-                                      "type": "element",
-                                      "tag": "span",
-                                      "attributes": {
-                                        "class": "platform svelte-8pxmff"
-                                      },
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "text": "Watch",
-                                          "flattenedTags": [
-                                            "span"
-                                          ],
-                                          "flattenedClasses": [
-                                            "platform-title svelte-8pxmff"
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "element",
-                              "tag": "li",
-                              "attributes": {},
-                              "children": [
-                                {
-                                  "type": "element",
-                                  "tag": "a",
-                                  "attributes": {
-                                    "href": "https://apps.apple.com/us/tv/discover"
-                                  },
-                                  "children": [
-                                    {
-                                      "type": "element",
-                                      "tag": "span",
-                                      "attributes": {
-                                        "class": "platform svelte-8pxmff"
-                                      },
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "text": "TV",
-                                          "flattenedTags": [
-                                            "span"
-                                          ],
-                                          "flattenedClasses": [
-                                            "platform-title svelte-8pxmff"
-                                          ]
-                                        }
-                                      ]
-                                    }
+                                  "type": "text",
+                                  "text": "Games",
+                                  "flattenedTags": [
+                                    "div",
+                                    "span"
+                                  ],
+                                  "flattenedClasses": [
+                                    "navigation-item__content svelte-zhx7t9",
+                                    "navigation-item__label svelte-zhx7t9"
                                   ]
                                 }
                               ]
                             }
-                          ],
-                          "flattenedTags": [
-                            "div"
-                          ],
-                          "flattenedClasses": [
-                            "platform-selector-inline svelte-8pxmff"
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "li",
+                          "attributes": {
+                            "class": "navigation-item navigation-item__LandingPage_iphone/apps_Intent svelte-1a5yt87",
+                            "aria-selected": "false"
+                          },
+                          "children": [
+                            {
+                              "type": "element",
+                              "tag": "a",
+                              "attributes": {
+                                "href": "https://apps.apple.com/us/iphone/apps",
+                                "class": "navigation-item__link svelte-1a5yt87",
+                                "role": "button",
+                                "aria-pressed": "false"
+                              },
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "Apps",
+                                  "flattenedTags": [
+                                    "div",
+                                    "span"
+                                  ],
+                                  "flattenedClasses": [
+                                    "navigation-item__content svelte-zhx7t9",
+                                    "navigation-item__label svelte-zhx7t9"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "li",
+                          "attributes": {
+                            "class": "navigation-item navigation-item__LandingPage_iphone/arcade_Intent svelte-1a5yt87",
+                            "aria-selected": "false"
+                          },
+                          "children": [
+                            {
+                              "type": "element",
+                              "tag": "a",
+                              "attributes": {
+                                "href": "https://apps.apple.com/us/iphone/arcade",
+                                "class": "navigation-item__link svelte-1a5yt87",
+                                "role": "button",
+                                "aria-pressed": "false"
+                              },
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "Arcade",
+                                  "flattenedTags": [
+                                    "div",
+                                    "span"
+                                  ],
+                                  "flattenedClasses": [
+                                    "navigation-item__content svelte-zhx7t9",
+                                    "navigation-item__label svelte-zhx7t9"
+                                  ]
+                                }
+                              ]
+                            }
                           ]
                         }
+                      ],
+                      "flattenedTags": [
+                        "div"
+                      ],
+                      "flattenedClasses": [
+                        "navigation-items navigation-items--primary svelte-ng61m8"
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "ul",
+                      "attributes": {
+                        "class": "svelte-8pxmff"
+                      },
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "li",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "element",
+                              "tag": "a",
+                              "attributes": {
+                                "href": "https://apps.apple.com/us/iphone/today"
+                              },
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "iPhone",
+                                  "flattenedTags": [
+                                    "span",
+                                    "span"
+                                  ],
+                                  "flattenedClasses": [
+                                    "platform svelte-8pxmff is-active",
+                                    "platform-title svelte-8pxmff"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "li",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "element",
+                              "tag": "a",
+                              "attributes": {
+                                "href": "https://apps.apple.com/us/ipad/today"
+                              },
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "iPad",
+                                  "flattenedTags": [
+                                    "span",
+                                    "span"
+                                  ],
+                                  "flattenedClasses": [
+                                    "platform svelte-8pxmff",
+                                    "platform-title svelte-8pxmff"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "li",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "element",
+                              "tag": "a",
+                              "attributes": {
+                                "href": "https://apps.apple.com/us/mac/discover"
+                              },
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "Mac",
+                                  "flattenedTags": [
+                                    "span",
+                                    "span"
+                                  ],
+                                  "flattenedClasses": [
+                                    "platform svelte-8pxmff",
+                                    "platform-title svelte-8pxmff"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "li",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "element",
+                              "tag": "a",
+                              "attributes": {
+                                "href": "https://apps.apple.com/us/vision/apps-and-games"
+                              },
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "Vision",
+                                  "flattenedTags": [
+                                    "span",
+                                    "span"
+                                  ],
+                                  "flattenedClasses": [
+                                    "platform svelte-8pxmff",
+                                    "platform-title svelte-8pxmff"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "li",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "element",
+                              "tag": "a",
+                              "attributes": {
+                                "href": "https://apps.apple.com/us/watch/apps-and-games"
+                              },
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "Watch",
+                                  "flattenedTags": [
+                                    "span",
+                                    "span"
+                                  ],
+                                  "flattenedClasses": [
+                                    "platform svelte-8pxmff",
+                                    "platform-title svelte-8pxmff"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "li",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "element",
+                              "tag": "a",
+                              "attributes": {
+                                "href": "https://apps.apple.com/us/tv/discover"
+                              },
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "TV",
+                                  "flattenedTags": [
+                                    "span",
+                                    "span"
+                                  ],
+                                  "flattenedClasses": [
+                                    "platform svelte-8pxmff",
+                                    "platform-title svelte-8pxmff"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "flattenedTags": [
+                        "div"
+                      ],
+                      "flattenedClasses": [
+                        "platform-selector-inline svelte-8pxmff"
                       ]
                     }
+                  ],
+                  "flattenedTags": [
+                    "div"
+                  ],
+                  "flattenedClasses": [
+                    "navigation__content svelte-13li0vp"
                   ]
                 }
               ],
@@ -811,211 +486,30 @@
                       "children": [
                         {
                           "type": "element",
-                          "tag": "div",
+                          "tag": "button",
                           "attributes": {
-                            "class": "dropdown-container svelte-11ovwt1"
+                            "class": "menu-trigger svelte-bmr6en",
+                            "aria-controls": "784d1b9c-c581-4c2a-bc61-b0dc2ba3b9a6",
+                            "aria-haspopup": "menu",
+                            "aria-expanded": "false"
                           },
                           "children": [
                             {
-                              "type": "element",
-                              "tag": "button",
-                              "attributes": {
-                                "class": "menu-trigger svelte-bmr6en",
-                                "aria-controls": "784d1b9c-c581-4c2a-bc61-b0dc2ba3b9a6",
-                                "aria-haspopup": "menu",
-                                "aria-expanded": "false"
-                              },
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "text": "All Games",
-                                  "flattenedTags": [
-                                    "span"
-                                  ],
-                                  "flattenedClasses": [
-                                    "menu-trigger-contents svelte-11ovwt1"
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "element",
-                              "tag": "ul",
-                              "attributes": {
-                                "id": "784d1b9c-c581-4c2a-bc61-b0dc2ba3b9a6",
-                                "tabindex": "-1",
-                                "class": "menu-popover focus-visible svelte-bmr6en"
-                              },
-                              "children": [
-                                {
-                                  "type": "element",
-                                  "tag": "li",
-                                  "attributes": {
-                                    "class": "menu-item svelte-bmr6en",
-                                    "role": "presentation"
-                                  },
-                                  "children": [
-                                    {
-                                      "type": "element",
-                                      "tag": "a",
-                                      "attributes": {
-                                        "href": "https://apps.apple.com/us/iphone/charts/6014?chart=top-free"
-                                      },
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "text": "All Games",
-                                          "flattenedTags": [
-                                            "div",
-                                            "span"
-                                          ],
-                                          "flattenedClasses": [
-                                            "category-menu-item svelte-11ovwt1 active",
-                                            "svelte-11ovwt1"
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "element",
-                                  "tag": "li",
-                                  "attributes": {
-                                    "class": "menu-item svelte-bmr6en",
-                                    "role": "presentation"
-                                  },
-                                  "children": [
-                                    {
-                                      "type": "element",
-                                      "tag": "a",
-                                      "attributes": {
-                                        "href": "https://apps.apple.com/us/iphone/charts/7001?chart=top-free"
-                                      },
-                                      "children": [
-                                        {
-                                          "type": "element",
-                                          "tag": "div",
-                                          "attributes": {
-                                            "class": "category-menu-item svelte-11ovwt1"
-                                          },
-                                          "children": [
-                                            {
-                                              "type": "element",
-                                              "tag": "picture",
-                                              "attributes": {
-                                                "class": "svelte-uduhys"
-                                              },
-                                              "children": [
-                                                {
-                                                  "type": "element",
-                                                  "tag": "img",
-                                                  "attributes": {
-                                                    "alt": "",
-                                                    "class": "artwork-component__contents artwork-component__image svelte-uduhys",
-                                                    "src": "/assets/artwork/1x1.gif",
-                                                    "role": "presentation",
-                                                    "width": "24",
-                                                    "height": "24"
-                                                  },
-                                                  "children": []
-                                                }
-                                              ],
-                                              "flattenedTags": [
-                                                "div",
-                                                "div"
-                                              ],
-                                              "flattenedClasses": [
-                                                "artwork-container svelte-11ovwt1",
-                                                "artwork-component artwork-component--aspect-ratio artwork-component--orientation-square svelte-uduhys    artwork-component--fullwidth"
-                                              ]
-                                            },
-                                            {
-                                              "type": "text",
-                                              "text": "Action",
-                                              "flattenedTags": [
-                                                "span"
-                                              ],
-                                              "flattenedClasses": [
-                                                "svelte-11ovwt1"
-                                              ]
-                                            }
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "element",
-                                  "tag": "li",
-                                  "attributes": {
-                                    "class": "menu-item svelte-bmr6en",
-                                    "role": "presentation"
-                                  },
-                                  "children": [
-                                    {
-                                      "type": "element",
-                                      "tag": "a",
-                                      "attributes": {
-                                        "href": "https://apps.apple.com/us/iphone/charts/7002?chart=top-free"
-                                      },
-                                      "children": [
-                                        {
-                                          "type": "element",
-                                          "tag": "div",
-                                          "attributes": {
-                                            "class": "category-menu-item svelte-11ovwt1"
-                                          },
-                                          "children": [
-                                            {
-                                              "type": "element",
-                                              "tag": "picture",
-                                              "attributes": {
-                                                "class": "svelte-uduhys"
-                                              },
-                                              "children": [
-                                                {
-                                                  "type": "element",
-                                                  "tag": "img",
-                                                  "attributes": {
-                                                    "alt": "",
-                                                    "class": "artwork-component__contents artwork-component__image svelte-uduhys",
-                                                    "src": "/assets/artwork/1x1.gif",
-                                                    "role": "presentation",
-                                                    "width": "24",
-                                                    "height": "24"
-                                                  },
-                                                  "children": []
-                                                }
-                                              ],
-                                              "flattenedTags": [
-                                                "div",
-                                                "div"
-                                              ],
-                                              "flattenedClasses": [
-                                                "artwork-container svelte-11ovwt1",
-                                                "artwork-component artwork-component--aspect-ratio artwork-component--orientation-square svelte-uduhys    artwork-component--fullwidth"
-                                              ]
-                                            },
-                                            {
-                                              "type": "text",
-                                              "text": "Adventure",
-                                              "flattenedTags": [
-                                                "span"
-                                              ],
-                                              "flattenedClasses": [
-                                                "svelte-11ovwt1"
-                                              ]
-                                            }
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                }
+                              "type": "text",
+                              "text": "All Games",
+                              "flattenedTags": [
+                                "span"
+                              ],
+                              "flattenedClasses": [
+                                "menu-trigger-contents svelte-11ovwt1"
                               ]
                             }
+                          ],
+                          "flattenedTags": [
+                            "div"
+                          ],
+                          "flattenedClasses": [
+                            "dropdown-container svelte-11ovwt1"
                           ]
                         }
                       ],

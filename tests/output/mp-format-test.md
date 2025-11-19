@@ -1,4 +1,4 @@
-Format TestOriginal yekai [猫哥ai编程](javascript:void(0);) ****** Claude Code 命令行工具是当前最热门最聪明的 AI 编程工具。
+Format TestOriginal yekai ****** Claude Code 命令行工具是当前最热门最聪明的 AI 编程工具。
 
 第 1 步：注册登录 PackyCode，领取 $1 体验额度
 

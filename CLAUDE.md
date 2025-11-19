@@ -1,6 +1,6 @@
-﻿# html2md2json Development Guidelines
+﻿# html2md4llm Development Guidelines
 
-Auto-generated from all feature plans. Last updated: 2025-11-12
+Auto-generated from all feature plans. Last updated: 2025-11-19
 
 ## Active Technologies
 
@@ -9,13 +9,19 @@ Auto-generated from all feature plans. Last updated: 2025-11-12
 ## Project Structure
 
 ```text
-src/
-tests/
+src/          # Core library code
+  main.js     # Main entry point and API
+  parser.js   # HTML parser
+  utils.js    # Utility functions
+  generators/ # Output generators
+    markdown.js
+tests/        # Test files
+specs/        # Feature specifications
 ```
 
 ## Commands
 
-npm test; npm run lint
+npm test
 
 ## Code Style
 

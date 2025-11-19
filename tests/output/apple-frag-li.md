@@ -1,4 +1,4 @@
-![](/assets/artwork/1x1.gif)Word
+Word
 [Free](https://apps.apple.com/us/iphone/charts/6014?chart=top-free) [Paid](https://apps.apple.com/us/iphone/charts/6014?chart=top-paid)
 
 - [1, Solitaire Associations Journey, Word Solitaire Card Game, View](https://apps.apple.com/us/app/solitaire-associations-journey/id6748950306)

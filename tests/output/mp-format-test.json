@@ -48,19 +48,6 @@
               "flattenedClasses": []
             },
             {
-              "type": "element",
-              "tag": "a",
-              "attributes": {
-                "href": "javascript:void(0);"
-              },
-              "children": [
-                {
-                  "type": "text",
-                  "text": "猫哥ai编程"
-                }
-              ]
-            },
-            {
               "type": "text",
               "text": "******",
               "flattenedTags": [

@@ -2,7 +2,7 @@
 
 # Claude Code 免费版，体验一次程序员的快感
 
-Original yekai [猫哥ai编程](javascript:void(0);)
+Original yekai
 
 Claude Code 命令行工具是当前最热门最聪明的 AI 编程工具，能 100% 用对话的方式写程序，不需要阅读和理解代码。我个人使用体验上，它的编码成功率大概是 Cursor 的 2 到 3 倍，所以如果你还没用过，也应该先体验一次再说。
 
@@ -94,11 +94,6 @@ https://github.com/github/spec-kit?tab=readme-ov-file
 
 提示：如果本文有看不懂的地方，还可以在评论区 @元宝 帮你解读：）
 
-预览时标签不可点
-
-![]()
-Scan to Follow
-
 继续滑动看下一个
 
 轻触阅读原文
@@ -108,23 +103,3 @@ Scan to Follow
 猫哥ai编程
 
 向上滑动看下一个
-
-[Got It](javascript:;)
-
-![]()Scan with Weixin to
-use this Mini Program
-
-[Cancel](javascript:void(0);) [Allow](javascript:void(0);)
-
-[Cancel](javascript:void(0);) [Allow](javascript:void(0);)
-
-[Cancel](javascript:void(0);) [Allow](javascript:void(0);)
-
-×分析
-
-![跳转二维码]()
-![作者头像](http://mmbiz.qpic.cn/sz_mmbiz_png/cFWFibBpTbSecnvk38OLNQnaFrRGfQJ9z4gmwwvSYEM5pPT2kvYub9oMIWCibvHVABwRx4ib9ibP52TeiazE4Rm6umA/0?wx_fmt=png)
-
-微信扫一扫可打开此内容，
-使用完整服务
-: ， ， ， ， ， ， ， ， ， ， ， ， .   Video Mini Program Like ，轻点两下取消赞 Wow ，轻点两下取消在看 Share Comment Favorite 听过

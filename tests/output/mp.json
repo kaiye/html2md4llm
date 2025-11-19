@@ -47,179 +47,481 @@
               "children": [
                 {
                   "type": "element",
-                  "tag": "div",
+                  "tag": "img",
                   "attributes": {
-                    "class": "wx_row_immersive_stream_wrap",
-                    "id": "js_row_immersive_stream_wrap"
+                    "src": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/cFWFibBpTbSd4LP3iauROyZdwqadBzsmlUS3Y6CPzAJZp2P1XvgFzuk75BRQ4Y7oJPJ25HiaeTibNC3H9fZar0y1DA/0?wx_fmt=jpeg",
+                    "alt": "cover_image",
+                    "class": "wx_follow_avatar_pic"
                   },
-                  "children": [
-                    {
-                      "type": "element",
-                      "tag": "img",
-                      "attributes": {
-                        "src": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/cFWFibBpTbSd4LP3iauROyZdwqadBzsmlUS3Y6CPzAJZp2P1XvgFzuk75BRQ4Y7oJPJ25HiaeTibNC3H9fZar0y1DA/0?wx_fmt=jpeg",
-                        "alt": "cover_image",
-                        "class": "wx_follow_avatar_pic"
-                      },
-                      "children": [],
-                      "flattenedTags": [
-                        "div"
-                      ],
-                      "flattenedClasses": []
-                    }
+                  "children": [],
+                  "flattenedTags": [
+                    "div",
+                    "div"
+                  ],
+                  "flattenedClasses": [
+                    "wx_row_immersive_stream_wrap"
                   ]
                 },
                 {
                   "type": "element",
                   "tag": "div",
                   "attributes": {
-                    "class": "rich_media_area_primary_inner"
+                    "id": "img-content",
+                    "class": "rich_media_wrp"
                   },
                   "children": [
                     {
                       "type": "element",
-                      "tag": "div",
+                      "tag": "h1",
                       "attributes": {
-                        "id": "img-content",
-                        "class": "rich_media_wrp"
+                        "class": "rich_media_title ",
+                        "id": "activity-name"
                       },
                       "children": [
                         {
+                          "type": "text",
+                          "text": "Claude Code 免费版，体验一次程序员的快感"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "div",
+                      "attributes": {
+                        "id": "meta_content",
+                        "class": "rich_media_meta_list"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Original",
+                          "flattenedTags": [
+                            "span"
+                          ],
+                          "flattenedClasses": [
+                            "wx_tap_link js_wx_tap_highlight rich_media_meta icon_appmsg_tag appmsg_title_tag weui-wa-hotarea"
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "yekai",
+                          "flattenedTags": [
+                            "span"
+                          ],
+                          "flattenedClasses": [
+                            "rich_media_meta rich_media_meta_text"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "div",
+                      "attributes": {
+                        "class": "rich_media_content js_underline_content\r\n                       autoTypeSetting24psection\r\n            ",
+                        "id": "js_content"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Claude Code 命令行工具是当前最热门最聪明的 AI 编程工具，能 100% 用对话的方式写程序，不需要阅读和理解代码。我个人使用体验上，它的编码成功率大概是 Cursor 的 2 到 3 倍，所以如果你还没用过，也应该先体验一次再说。",
+                          "flattenedTags": [
+                            "section",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "text",
+                          "text": "但对于国内用户来说，Claude Code 的安装和会员订阅门槛，还是相当高的。",
+                          "flattenedTags": [
+                            "section",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "text",
+                          "text": "本文介绍一种能免费体验的方法。",
+                          "flattenedTags": [
+                            "section",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "text",
+                          "text": "第 1 步：注册登录 PackyCode，领取 $1 体验额度",
+                          "flattenedTags": [
+                            "section",
+                            "span",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "text",
+                          "text": "https://www.packyapi.com/register?aff=sf14",
+                          "flattenedTags": [
+                            "section",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "text",
+                          "text": "第 2 步：在控制台创建一个新的令牌 ",
+                          "flattenedTags": [
+                            "p",
+                            "span",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "text",
+                          "text": "https://www.packyapi.com/console/token",
+                          "flattenedTags": [
+                            "p",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
                           "type": "element",
-                          "tag": "h1",
+                          "tag": "img",
                           "attributes": {
-                            "class": "rich_media_title ",
-                            "id": "activity-name"
+                            "class": "rich_pages wxw-img",
+                            "type": "block",
+                            "src": "https://mmbiz.qpic.cn/sz_mmbiz_png/cFWFibBpTbSd4LP3iauROyZdwqadBzsmlUfibrv8oq23NArkhN8ZpcKiasL7uCvfU2vnMjQDTsZuI5sIWrGTPoyk3Q/640?wx_fmt=png&amp;from=appmsg"
                           },
+                          "children": [],
+                          "flattenedTags": [
+                            "section"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "text",
+                          "text": "注意：分组选 aws-q，token 消耗速度最慢，$1 预计能免费体验一天。",
+                          "flattenedTags": [
+                            "section",
+                            "span",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "text",
+                          "text": "创建完成后，把密钥复制出来，一会要用！",
+                          "flattenedTags": [
+                            "section",
+                            "span",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "element",
+                          "tag": "img",
+                          "attributes": {
+                            "class": "rich_pages wxw-img",
+                            "type": "block",
+                            "src": "https://mmbiz.qpic.cn/sz_mmbiz_png/cFWFibBpTbSd4LP3iauROyZdwqadBzsmlUCTndEmib6ueoaiaxw4DXDDmZvxgb8ibSI2twDwa5UT96m8fpc9CaU0DCw/640?wx_fmt=png&amp;from=appmsg"
+                          },
+                          "children": [],
+                          "flattenedTags": [
+                            "section"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "element",
+                          "tag": "br",
+                          "attributes": {},
+                          "children": [],
+                          "flattenedTags": [
+                            "section",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "text",
+                          "text": "第 3 步：命令行终端里安装 Claude Code",
+                          "flattenedTags": [
+                            "section",
+                            "span",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "text",
+                          "text": "（如果到这一步你就已经看不懂了，可以问一下元宝、豆包或者 deepseek）",
+                          "flattenedTags": [
+                            "section",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attributes": {},
                           "children": [
                             {
                               "type": "text",
-                              "text": "Claude Code 免费版，体验一次程序员的快感"
+                              "text": "MacOS/Linux:",
+                              "flattenedTags": [
+                                "span"
+                              ],
+                              "flattenedClasses": []
+                            }
+                          ],
+                          "flattenedTags": [
+                            "p"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "element",
+                          "tag": "pre",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "curl -fsSL https://claude.ai/install.sh | bash"
                             }
                           ]
                         },
                         {
                           "type": "element",
-                          "tag": "div",
-                          "attributes": {
-                            "id": "meta_content",
-                            "class": "rich_media_meta_list"
-                          },
+                          "tag": "strong",
+                          "attributes": {},
                           "children": [
                             {
                               "type": "text",
-                              "text": "Original",
+                              "text": "Homebrew (MacOS):",
                               "flattenedTags": [
                                 "span"
                               ],
-                              "flattenedClasses": [
-                                "wx_tap_link js_wx_tap_highlight rich_media_meta icon_appmsg_tag appmsg_title_tag weui-wa-hotarea"
-                              ]
-                            },
+                              "flattenedClasses": []
+                            }
+                          ],
+                          "flattenedTags": [
+                            "p"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "element",
+                          "tag": "pre",
+                          "attributes": {},
+                          "children": [
                             {
                               "type": "text",
-                              "text": "yekai",
+                              "text": "brew install --cask claude-code"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Windows:",
                               "flattenedTags": [
                                 "span"
                               ],
-                              "flattenedClasses": [
-                                "rich_media_meta rich_media_meta_text"
+                              "flattenedClasses": []
+                            }
+                          ],
+                          "flattenedTags": [
+                            "p"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "element",
+                          "tag": "pre",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "irm https://claude.ai/install.ps1 | iex"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "NPM:",
+                              "flattenedTags": [
+                                "span"
+                              ],
+                              "flattenedClasses": []
+                            }
+                          ],
+                          "flattenedTags": [
+                            "p"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "element",
+                          "tag": "pre",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "npm install -g @anthropic-ai/claude-code"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "第 4 步：修改 Claude Code 的配置文件",
+                          "flattenedTags": [
+                            "section",
+                            "span",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "text",
+                          "text": "很多同学是安装好之后直接运行 claude 命令，然后发现要注册登录很懵逼，这里其实可以通过修改环境变量的方式绕过登录，直接使用指定的大模型。",
+                          "flattenedTags": [
+                            "section",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "text",
+                          "text": "用代码编辑器（推荐 vscode 或 cursor）打开以下文件，没有的话就创建一个。",
+                          "flattenedTags": [
+                            "section",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "element",
+                          "tag": "pre",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "~/.claude/settings.json"
+                            }
+                          ],
+                          "flattenedTags": [
+                            "section"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "element",
+                          "tag": "section",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "element",
+                              "tag": "section",
+                              "attributes": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "文件中写入以下内容，将下面的 ",
+                                  "flattenedTags": [
+                                    "span"
+                                  ],
+                                  "flattenedClasses": []
+                                },
+                                {
+                                  "type": "text",
+                                  "text": "your-api-key-here 替换成",
+                                  "flattenedTags": [
+                                    "span"
+                                  ],
+                                  "flattenedClasses": []
+                                },
+                                {
+                                  "type": "text",
+                                  "text": "上面创建的令牌密钥。",
+                                  "flattenedTags": [
+                                    "span"
+                                  ],
+                                  "flattenedClasses": []
+                                }
                               ]
                             },
                             {
                               "type": "element",
-                              "tag": "span",
+                              "tag": "pre",
                               "attributes": {
-                                "class": "rich_media_meta rich_media_meta_nickname",
-                                "id": "profileBt"
+                                "class": "code-snippet__js"
                               },
                               "children": [
                                 {
-                                  "type": "element",
-                                  "tag": "a",
-                                  "attributes": {
-                                    "href": "javascript:void(0);",
-                                    "class": "wx_tap_link js_wx_tap_highlight weui-wa-hotarea",
-                                    "id": "js_name"
-                                  },
-                                  "children": [
-                                    {
-                                      "type": "text",
-                                      "text": "猫哥ai编程"
-                                    }
-                                  ]
+                                  "type": "text",
+                                  "text": "{  \"env\": {    \"ANTHROPIC_AUTH_TOKEN\": \"your-api-key-here\",    \"ANTHROPIC_BASE_URL\": \"https://www.packyapi.com\",    \"CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC\": \"1\"  },  \"permissions\": {    \"defaultMode\": \"bypassPermissions\"  }}"
+                                }
+                              ],
+                              "flattenedTags": [
+                                "section"
+                              ],
+                              "flattenedClasses": [
+                                "code-snippet__fix code-snippet__js"
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "br",
+                              "attributes": {},
+                              "children": [],
+                              "flattenedTags": [
+                                "section",
+                                "span"
+                              ],
+                              "flattenedClasses": []
+                            },
+                            {
+                              "type": "element",
+                              "tag": "p",
+                              "attributes": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "注意：",
+                                  "flattenedTags": [
+                                    "span"
+                                  ],
+                                  "flattenedClasses": []
+                                },
+                                {
+                                  "type": "text",
+                                  "text": "bypassPermissions 是 Claude Code 的放飞自我模式（YOLO mode），执行任何命令都不会再和用户确认，很爽但也危险，请自行判断是否去掉（我自己是一直打开：）",
+                                  "flattenedTags": [
+                                    "span"
+                                  ],
+                                  "flattenedClasses": []
                                 }
                               ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "element",
-                          "tag": "div",
-                          "attributes": {
-                            "class": "rich_media_content js_underline_content\r\n                       autoTypeSetting24psection\r\n            ",
-                            "id": "js_content"
-                          },
-                          "children": [
-                            {
-                              "type": "text",
-                              "text": "Claude Code 命令行工具是当前最热门最聪明的 AI 编程工具，能 100% 用对话的方式写程序，不需要阅读和理解代码。我个人使用体验上，它的编码成功率大概是 Cursor 的 2 到 3 倍，所以如果你还没用过，也应该先体验一次再说。",
-                              "flattenedTags": [
-                                "section",
-                                "span"
-                              ],
-                              "flattenedClasses": []
                             },
                             {
-                              "type": "text",
-                              "text": "但对于国内用户来说，Claude Code 的安装和会员订阅门槛，还是相当高的。",
-                              "flattenedTags": [
-                                "section",
-                                "span"
-                              ],
-                              "flattenedClasses": []
-                            },
-                            {
-                              "type": "text",
-                              "text": "本文介绍一种能免费体验的方法。",
-                              "flattenedTags": [
-                                "section",
-                                "span"
-                              ],
-                              "flattenedClasses": []
-                            },
-                            {
-                              "type": "text",
-                              "text": "第 1 步：注册登录 PackyCode，领取 $1 体验额度",
-                              "flattenedTags": [
-                                "section",
-                                "span",
-                                "span"
-                              ],
-                              "flattenedClasses": []
-                            },
-                            {
-                              "type": "text",
-                              "text": "https://www.packyapi.com/register?aff=sf14",
-                              "flattenedTags": [
-                                "section",
-                                "span"
-                              ],
-                              "flattenedClasses": []
-                            },
-                            {
-                              "type": "text",
-                              "text": "第 2 步：在控制台创建一个新的令牌 ",
-                              "flattenedTags": [
-                                "p",
-                                "span",
-                                "span"
-                              ],
-                              "flattenedClasses": []
-                            },
-                            {
-                              "type": "text",
-                              "text": "https://www.packyapi.com/console/token",
+                              "type": "element",
+                              "tag": "br",
+                              "attributes": {},
+                              "children": [],
                               "flattenedTags": [
                                 "p",
                                 "span"
@@ -227,50 +529,12 @@
                               "flattenedClasses": []
                             },
                             {
-                              "type": "element",
-                              "tag": "img",
-                              "attributes": {
-                                "class": "rich_pages wxw-img",
-                                "type": "block",
-                                "src": "https://mmbiz.qpic.cn/sz_mmbiz_png/cFWFibBpTbSd4LP3iauROyZdwqadBzsmlUfibrv8oq23NArkhN8ZpcKiasL7uCvfU2vnMjQDTsZuI5sIWrGTPoyk3Q/640?wx_fmt=png&amp;from=appmsg"
-                              },
-                              "children": [],
-                              "flattenedTags": [
-                                "section"
-                              ],
-                              "flattenedClasses": []
-                            },
-                            {
                               "type": "text",
-                              "text": "注意：分组选 aws-q，token 消耗速度最慢，$1 预计能免费体验一天。",
+                              "text": "第 5 步：执行命令 claude 开始体验。",
                               "flattenedTags": [
-                                "section",
+                                "p",
                                 "span",
                                 "span"
-                              ],
-                              "flattenedClasses": []
-                            },
-                            {
-                              "type": "text",
-                              "text": "创建完成后，把密钥复制出来，一会要用！",
-                              "flattenedTags": [
-                                "section",
-                                "span",
-                                "span"
-                              ],
-                              "flattenedClasses": []
-                            },
-                            {
-                              "type": "element",
-                              "tag": "img",
-                              "attributes": {
-                                "class": "rich_pages wxw-img",
-                                "type": "block",
-                                "src": "https://mmbiz.qpic.cn/sz_mmbiz_png/cFWFibBpTbSd4LP3iauROyZdwqadBzsmlUCTndEmib6ueoaiaxw4DXDDmZvxgb8ibSI2twDwa5UT96m8fpc9CaU0DCw/640?wx_fmt=png&amp;from=appmsg"
-                              },
-                              "children": [],
-                              "flattenedTags": [
-                                "section"
                               ],
                               "flattenedClasses": []
                             },
@@ -287,17 +551,7 @@
                             },
                             {
                               "type": "text",
-                              "text": "第 3 步：命令行终端里安装 Claude Code",
-                              "flattenedTags": [
-                                "section",
-                                "span",
-                                "span"
-                              ],
-                              "flattenedClasses": []
-                            },
-                            {
-                              "type": "text",
-                              "text": "（如果到这一步你就已经看不懂了，可以问一下元宝、豆包或者 deepseek）",
+                              "text": "如果你不是程序员，不懂代码，没关系，直接和 claude 聊你的想法，它能帮你把产品一步步实现。",
                               "flattenedTags": [
                                 "section",
                                 "span"
@@ -306,137 +560,45 @@
                             },
                             {
                               "type": "element",
-                              "tag": "strong",
+                              "tag": "br",
                               "attributes": {},
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "text": "MacOS/Linux:",
-                                  "flattenedTags": [
-                                    "span"
-                                  ],
-                                  "flattenedClasses": []
-                                }
-                              ],
-                              "flattenedTags": [
-                                "p"
-                              ],
-                              "flattenedClasses": []
-                            },
-                            {
-                              "type": "element",
-                              "tag": "pre",
-                              "attributes": {},
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "text": "curl -fsSL https://claude.ai/install.sh | bash"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "element",
-                              "tag": "strong",
-                              "attributes": {},
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "text": "Homebrew (MacOS):",
-                                  "flattenedTags": [
-                                    "span"
-                                  ],
-                                  "flattenedClasses": []
-                                }
-                              ],
-                              "flattenedTags": [
-                                "p"
-                              ],
-                              "flattenedClasses": []
-                            },
-                            {
-                              "type": "element",
-                              "tag": "pre",
-                              "attributes": {},
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "text": "brew install --cask claude-code"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "element",
-                              "tag": "strong",
-                              "attributes": {},
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "text": "Windows:",
-                                  "flattenedTags": [
-                                    "span"
-                                  ],
-                                  "flattenedClasses": []
-                                }
-                              ],
-                              "flattenedTags": [
-                                "p"
-                              ],
-                              "flattenedClasses": []
-                            },
-                            {
-                              "type": "element",
-                              "tag": "pre",
-                              "attributes": {},
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "text": "irm https://claude.ai/install.ps1 | iex"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "element",
-                              "tag": "strong",
-                              "attributes": {},
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "text": "NPM:",
-                                  "flattenedTags": [
-                                    "span"
-                                  ],
-                                  "flattenedClasses": []
-                                }
-                              ],
-                              "flattenedTags": [
-                                "p"
-                              ],
-                              "flattenedClasses": []
-                            },
-                            {
-                              "type": "element",
-                              "tag": "pre",
-                              "attributes": {},
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "text": "npm install -g @anthropic-ai/claude-code"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "text": "第 4 步：修改 Claude Code 的配置文件",
+                              "children": [],
                               "flattenedTags": [
                                 "section",
-                                "span",
                                 "span"
                               ],
                               "flattenedClasses": []
                             },
                             {
-                              "type": "text",
-                              "text": "很多同学是安装好之后直接运行 claude 命令，然后发现要注册登录很懵逼，这里其实可以通过修改环境变量的方式绕过登录，直接使用指定的大模型。",
+                              "type": "element",
+                              "tag": "section",
+                              "attributes": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "如果你希望按照标准软件开发流程来实现你的产品，可以继续安装使用微软的 spec-kit 工具。",
+                                  "flattenedTags": [
+                                    "span"
+                                  ],
+                                  "flattenedClasses": []
+                                },
+                                {
+                                  "type": "element",
+                                  "tag": "br",
+                                  "attributes": {},
+                                  "children": [],
+                                  "flattenedTags": [
+                                    "span"
+                                  ],
+                                  "flattenedClasses": []
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "br",
+                              "attributes": {},
+                              "children": [],
                               "flattenedTags": [
                                 "section",
                                 "span"
@@ -445,7 +607,7 @@
                             },
                             {
                               "type": "text",
-                              "text": "用代码编辑器（推荐 vscode 或 cursor）打开以下文件，没有的话就创建一个。",
+                              "text": "https://github.com/github/spec-kit?tab=readme-ov-file",
                               "flattenedTags": [
                                 "section",
                                 "span"
@@ -454,16 +616,21 @@
                             },
                             {
                               "type": "element",
-                              "tag": "pre",
+                              "tag": "br",
                               "attributes": {},
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "text": "~/.claude/settings.json"
-                                }
-                              ],
+                              "children": [],
                               "flattenedTags": [
-                                "section"
+                                "section",
+                                "span"
+                              ],
+                              "flattenedClasses": []
+                            },
+                            {
+                              "type": "text",
+                              "text": "不会安装？现在你已经拥有 Claude Code 了，把上面的链接和要求丢给它，它会帮你搞定剩下的一切。",
+                              "flattenedTags": [
+                                "section",
+                                "span"
                               ],
                               "flattenedClasses": []
                             },
@@ -474,114 +641,6 @@
                               "children": [
                                 {
                                   "type": "element",
-                                  "tag": "section",
-                                  "attributes": {},
-                                  "children": [
-                                    {
-                                      "type": "text",
-                                      "text": "文件中写入以下内容，将下面的 ",
-                                      "flattenedTags": [
-                                        "span"
-                                      ],
-                                      "flattenedClasses": []
-                                    },
-                                    {
-                                      "type": "text",
-                                      "text": "your-api-key-here 替换成",
-                                      "flattenedTags": [
-                                        "span"
-                                      ],
-                                      "flattenedClasses": []
-                                    },
-                                    {
-                                      "type": "text",
-                                      "text": "上面创建的令牌密钥。",
-                                      "flattenedTags": [
-                                        "span"
-                                      ],
-                                      "flattenedClasses": []
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "element",
-                                  "tag": "section",
-                                  "attributes": {
-                                    "class": "code-snippet__fix code-snippet__js"
-                                  },
-                                  "children": [
-                                    {
-                                      "type": "element",
-                                      "tag": "pre",
-                                      "attributes": {
-                                        "class": "code-snippet__js"
-                                      },
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "text": "{  \"env\": {    \"ANTHROPIC_AUTH_TOKEN\": \"your-api-key-here\",    \"ANTHROPIC_BASE_URL\": \"https://www.packyapi.com\",    \"CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC\": \"1\"  },  \"permissions\": {    \"defaultMode\": \"bypassPermissions\"  }}"
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "element",
-                                  "tag": "br",
-                                  "attributes": {},
-                                  "children": [],
-                                  "flattenedTags": [
-                                    "section",
-                                    "span"
-                                  ],
-                                  "flattenedClasses": []
-                                },
-                                {
-                                  "type": "element",
-                                  "tag": "p",
-                                  "attributes": {},
-                                  "children": [
-                                    {
-                                      "type": "text",
-                                      "text": "注意：",
-                                      "flattenedTags": [
-                                        "span"
-                                      ],
-                                      "flattenedClasses": []
-                                    },
-                                    {
-                                      "type": "text",
-                                      "text": "bypassPermissions 是 Claude Code 的放飞自我模式（YOLO mode），执行任何命令都不会再和用户确认，很爽但也危险，请自行判断是否去掉（我自己是一直打开：）",
-                                      "flattenedTags": [
-                                        "span"
-                                      ],
-                                      "flattenedClasses": []
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "element",
-                                  "tag": "br",
-                                  "attributes": {},
-                                  "children": [],
-                                  "flattenedTags": [
-                                    "p",
-                                    "span"
-                                  ],
-                                  "flattenedClasses": []
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "第 5 步：执行命令 claude 开始体验。",
-                                  "flattenedTags": [
-                                    "p",
-                                    "span",
-                                    "span"
-                                  ],
-                                  "flattenedClasses": []
-                                },
-                                {
-                                  "type": "element",
                                   "tag": "br",
                                   "attributes": {},
                                   "children": [],
@@ -593,163 +652,18 @@
                                 },
                                 {
                                   "type": "text",
-                                  "text": "如果你不是程序员，不懂代码，没关系，直接和 claude 聊你的想法，它能帮你把产品一步步实现。",
+                                  "text": "提示：如果本文有看不懂的地方，还可以在评论区 @元宝 帮你解读：）",
                                   "flattenedTags": [
                                     "section",
                                     "span"
                                   ],
                                   "flattenedClasses": []
-                                },
-                                {
-                                  "type": "element",
-                                  "tag": "br",
-                                  "attributes": {},
-                                  "children": [],
-                                  "flattenedTags": [
-                                    "section",
-                                    "span"
-                                  ],
-                                  "flattenedClasses": []
-                                },
-                                {
-                                  "type": "element",
-                                  "tag": "section",
-                                  "attributes": {},
-                                  "children": [
-                                    {
-                                      "type": "text",
-                                      "text": "如果你希望按照标准软件开发流程来实现你的产品，可以继续安装使用微软的 spec-kit 工具。",
-                                      "flattenedTags": [
-                                        "span"
-                                      ],
-                                      "flattenedClasses": []
-                                    },
-                                    {
-                                      "type": "element",
-                                      "tag": "br",
-                                      "attributes": {},
-                                      "children": [],
-                                      "flattenedTags": [
-                                        "span"
-                                      ],
-                                      "flattenedClasses": []
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "element",
-                                  "tag": "br",
-                                  "attributes": {},
-                                  "children": [],
-                                  "flattenedTags": [
-                                    "section",
-                                    "span"
-                                  ],
-                                  "flattenedClasses": []
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "https://github.com/github/spec-kit?tab=readme-ov-file",
-                                  "flattenedTags": [
-                                    "section",
-                                    "span"
-                                  ],
-                                  "flattenedClasses": []
-                                },
-                                {
-                                  "type": "element",
-                                  "tag": "br",
-                                  "attributes": {},
-                                  "children": [],
-                                  "flattenedTags": [
-                                    "section",
-                                    "span"
-                                  ],
-                                  "flattenedClasses": []
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "不会安装？现在你已经拥有 Claude Code 了，把上面的链接和要求丢给它，它会帮你搞定剩下的一切。",
-                                  "flattenedTags": [
-                                    "section",
-                                    "span"
-                                  ],
-                                  "flattenedClasses": []
-                                },
-                                {
-                                  "type": "element",
-                                  "tag": "section",
-                                  "attributes": {},
-                                  "children": [
-                                    {
-                                      "type": "element",
-                                      "tag": "br",
-                                      "attributes": {},
-                                      "children": [],
-                                      "flattenedTags": [
-                                        "section",
-                                        "span"
-                                      ],
-                                      "flattenedClasses": []
-                                    },
-                                    {
-                                      "type": "text",
-                                      "text": "提示：如果本文有看不懂的地方，还可以在评论区 @元宝 帮你解读：）",
-                                      "flattenedTags": [
-                                        "section",
-                                        "span"
-                                      ],
-                                      "flattenedClasses": []
-                                    }
-                                  ]
                                 }
                               ]
                             }
                           ]
                         }
                       ]
-                    },
-                    {
-                      "type": "text",
-                      "text": "预览时标签不可点",
-                      "flattenedTags": [
-                        "div"
-                      ],
-                      "flattenedClasses": [
-                        "article-tag__error-tips"
-                      ]
-                    }
-                  ],
-                  "flattenedTags": [
-                    "div"
-                  ],
-                  "flattenedClasses": [
-                    "rich_media_area_primary"
-                  ]
-                },
-                {
-                  "type": "element",
-                  "tag": "div",
-                  "attributes": {
-                    "class": "qr_code_pc"
-                  },
-                  "children": [
-                    {
-                      "type": "element",
-                      "tag": "img",
-                      "attributes": {
-                        "id": "js_pc_qr_code_img",
-                        "class": "qr_code_pc_img"
-                      },
-                      "children": []
-                    },
-                    {
-                      "type": "text",
-                      "text": "Scan to Follow",
-                      "flattenedTags": [
-                        "p"
-                      ],
-                      "flattenedClasses": []
                     }
                   ],
                   "flattenedTags": [
@@ -757,35 +671,24 @@
                     "div"
                   ],
                   "flattenedClasses": [
-                    "qr_code_pc_outer",
-                    "qr_code_pc_inner"
+                    "rich_media_area_primary",
+                    "rich_media_area_primary_inner"
                   ]
                 }
               ]
             },
             {
-              "type": "element",
-              "tag": "div",
-              "attributes": {
-                "class": "wx_stream_article_slide_tip_wrp"
-              },
-              "children": [
-                {
-                  "type": "text",
-                  "text": "继续滑动看下一个",
-                  "flattenedTags": [
-                    "span"
-                  ],
-                  "flattenedClasses": [
-                    "wx_stream_article_slide_tip_text"
-                  ]
-                }
-              ],
+              "type": "text",
+              "text": "继续滑动看下一个",
               "flattenedTags": [
-                "div"
+                "div",
+                "div",
+                "span"
               ],
               "flattenedClasses": [
-                "wx_stream_article_slide_tip"
+                "wx_stream_article_slide_tip",
+                "wx_stream_article_slide_tip_wrp",
+                "wx_stream_article_slide_tip_text"
               ]
             }
           ]
@@ -830,754 +733,77 @@
                   "type": "element",
                   "tag": "div",
                   "attributes": {
-                    "id": "js_stream_bottom_bar",
-                    "class": "stream_bottom_bar_wrp"
+                    "class": "wx_follow_media weui-flex weui-flex_align-center"
                   },
                   "children": [
                     {
                       "type": "element",
-                      "tag": "div",
+                      "tag": "img",
                       "attributes": {
-                        "id": "js_stream_bottom_bar_placeholder",
-                        "class": "bottom_bar_placeholder"
+                        "src": "http://mmbiz.qpic.cn/sz_mmbiz_png/cFWFibBpTbSecnvk38OLNQnaFrRGfQJ9z4gmwwvSYEM5pPT2kvYub9oMIWCibvHVABwRx4ib9ibP52TeiazE4Rm6umA/0?wx_fmt=png",
+                        "alt": "",
+                        "class": "wx_follow_avatar_pic"
                       },
-                      "children": [
-                        {
-                          "type": "element",
-                          "tag": "div",
-                          "attributes": {
-                            "class": "wx_follow_media weui-flex weui-flex_align-center"
-                          },
-                          "children": [
-                            {
-                              "type": "element",
-                              "tag": "img",
-                              "attributes": {
-                                "src": "http://mmbiz.qpic.cn/sz_mmbiz_png/cFWFibBpTbSecnvk38OLNQnaFrRGfQJ9z4gmwwvSYEM5pPT2kvYub9oMIWCibvHVABwRx4ib9ibP52TeiazE4Rm6umA/0?wx_fmt=png",
-                                "alt": "",
-                                "class": "wx_follow_avatar_pic"
-                              },
-                              "children": [],
-                              "flattenedTags": [
-                                "div",
-                                "span"
-                              ],
-                              "flattenedClasses": [
-                                "wx_follow_hd",
-                                "wx_follow_avatar"
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "text": "猫哥ai编程",
-                              "flattenedTags": [
-                                "div",
-                                "div",
-                                "div"
-                              ],
-                              "flattenedClasses": [
-                                "wx_follow_bd weui-flex__item",
-                                "wx_follow_info",
-                                "wx_follow_nickname"
-                              ]
-                            }
-                          ],
-                          "flattenedTags": [
-                            "div",
-                            "div",
-                            "div",
-                            "div"
-                          ],
-                          "flattenedClasses": [
-                            "wx_follow_context wx_follow_primary wx_follow_smart wx_follow_top wx_follow_bottom",
-                            "function_mod js_function_mod wx_tap_cell",
-                            "function_mod_inner js_function_mod_inner",
-                            "function_bd"
-                          ]
-                        }
+                      "children": [],
+                      "flattenedTags": [
+                        "div",
+                        "span"
+                      ],
+                      "flattenedClasses": [
+                        "wx_follow_hd",
+                        "wx_follow_avatar"
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "猫哥ai编程",
+                      "flattenedTags": [
+                        "div",
+                        "div",
+                        "div"
+                      ],
+                      "flattenedClasses": [
+                        "wx_follow_bd weui-flex__item",
+                        "wx_follow_info",
+                        "wx_follow_nickname"
                       ]
                     }
+                  ],
+                  "flattenedTags": [
+                    "div",
+                    "div",
+                    "div",
+                    "div",
+                    "div",
+                    "div"
+                  ],
+                  "flattenedClasses": [
+                    "stream_bottom_bar_wrp",
+                    "bottom_bar_placeholder",
+                    "wx_follow_context wx_follow_primary wx_follow_smart wx_follow_top wx_follow_bottom",
+                    "function_mod js_function_mod wx_tap_cell",
+                    "function_mod_inner js_function_mod_inner",
+                    "function_bd"
                   ]
                 }
               ]
             },
             {
-              "type": "element",
-              "tag": "div",
-              "attributes": {
-                "class": "wx_stream_article_slide_tip_wrp"
-              },
-              "children": [
-                {
-                  "type": "text",
-                  "text": "向上滑动看下一个",
-                  "flattenedTags": [
-                    "span"
-                  ],
-                  "flattenedClasses": [
-                    "wx_stream_article_slide_tip_text"
-                  ]
-                }
-              ],
+              "type": "text",
+              "text": "向上滑动看下一个",
               "flattenedTags": [
                 "div",
-                "div"
+                "div",
+                "div",
+                "span"
               ],
               "flattenedClasses": [
                 "wx_expand_article_slide_tip",
-                "wx_stream_article_slide_tip"
+                "wx_stream_article_slide_tip",
+                "wx_stream_article_slide_tip_wrp",
+                "wx_stream_article_slide_tip_text"
               ]
             }
-          ]
-        },
-        {
-          "type": "element",
-          "tag": "div",
-          "attributes": {
-            "class": "weui-dialog__wrp",
-            "id": "js_alert_panel"
-          },
-          "children": [
-            {
-              "type": "element",
-              "tag": "div",
-              "attributes": {
-                "class": "weui-dialog"
-              },
-              "children": [
-                {
-                  "type": "element",
-                  "tag": "a",
-                  "attributes": {
-                    "href": "javascript:;",
-                    "class": "weui-dialog__btn weui-dialog__btn_default",
-                    "id": "js_alert_confirm"
-                  },
-                  "children": [
-                    {
-                      "type": "text",
-                      "text": "Got It"
-                    }
-                  ],
-                  "flattenedTags": [
-                    "div"
-                  ],
-                  "flattenedClasses": [
-                    "weui-dialog__ft"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "element",
-          "tag": "div",
-          "attributes": {
-            "class": "weui-desktop-popover__desc"
-          },
-          "children": [
-            {
-              "type": "element",
-              "tag": "img",
-              "attributes": {
-                "id": "js_pc_weapp_code_img"
-              },
-              "children": []
-            },
-            {
-              "type": "text",
-              "text": "Scan with Weixin to"
-            },
-            {
-              "type": "element",
-              "tag": "br",
-              "attributes": {},
-              "children": []
-            },
-            {
-              "type": "text",
-              "text": "use this Mini Program"
-            }
-          ],
-          "flattenedTags": [
-            "div",
-            "div"
-          ],
-          "flattenedClasses": [
-            "weui-desktop-popover weui-desktop-popover_pos-up-center weui-desktop-popover_img-text weapp_code_popover",
-            "weui-desktop-popover__inner"
-          ]
-        },
-        {
-          "type": "element",
-          "tag": "div",
-          "attributes": {
-            "id": "js_minipro_dialog",
-            "class": "outer_dialog",
-            "role": "dialog",
-            "aria-modal": "true",
-            "tabindex": "0",
-            "aria-labelledby": "js_minipro_dialog_head"
-          },
-          "children": [
-            {
-              "type": "element",
-              "tag": "div",
-              "attributes": {
-                "class": "weui-dialog weui-dialog_link"
-              },
-              "children": [
-                {
-                  "type": "element",
-                  "tag": "div",
-                  "attributes": {
-                    "class": "weui-dialog__ft"
-                  },
-                  "children": [
-                    {
-                      "type": "element",
-                      "tag": "a",
-                      "attributes": {
-                        "role": "button",
-                        "id": "js_minipro_dialog_cancel",
-                        "href": "javascript:void(0);",
-                        "class": "weui-dialog__btn weui-dialog__btn_default"
-                      },
-                      "children": [
-                        {
-                          "type": "text",
-                          "text": "Cancel"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "element",
-                      "tag": "a",
-                      "attributes": {
-                        "role": "button",
-                        "id": "js_minipro_dialog_ok",
-                        "href": "javascript:void(0);",
-                        "class": "weui-dialog__btn weui-dialog__btn_primary"
-                      },
-                      "children": [
-                        {
-                          "type": "text",
-                          "text": "Allow"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "element",
-          "tag": "div",
-          "attributes": {
-            "id": "js_link_dialog",
-            "class": "outer_dialog",
-            "role": "dialog",
-            "aria-modal": "true",
-            "tabindex": "0",
-            "aria-labelledby": "js_link_dialog_body"
-          },
-          "children": [
-            {
-              "type": "element",
-              "tag": "div",
-              "attributes": {
-                "class": "weui-dialog weui-dialog_link"
-              },
-              "children": [
-                {
-                  "type": "element",
-                  "tag": "div",
-                  "attributes": {
-                    "class": "weui-dialog__ft"
-                  },
-                  "children": [
-                    {
-                      "type": "element",
-                      "tag": "a",
-                      "attributes": {
-                        "role": "button",
-                        "id": "js_link_dialog_cancel",
-                        "href": "javascript:void(0);",
-                        "class": "weui-dialog__btn weui-dialog__btn_default"
-                      },
-                      "children": [
-                        {
-                          "type": "text",
-                          "text": "Cancel"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "element",
-                      "tag": "a",
-                      "attributes": {
-                        "role": "button",
-                        "id": "js_link_dialog_ok",
-                        "href": "javascript:void(0);",
-                        "class": "weui-dialog__btn weui-dialog__btn_primary"
-                      },
-                      "children": [
-                        {
-                          "type": "text",
-                          "text": "Allow"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "element",
-          "tag": "div",
-          "attributes": {
-            "id": "js_product_dialog",
-            "class": "outer_dialog",
-            "role": "dialog",
-            "aria-modal": "true",
-            "tabindex": "0",
-            "aria-labelledby": "js_product_dialog_body"
-          },
-          "children": [
-            {
-              "type": "element",
-              "tag": "div",
-              "attributes": {
-                "class": "weui-dialog weui-dialog_link"
-              },
-              "children": [
-                {
-                  "type": "element",
-                  "tag": "div",
-                  "attributes": {
-                    "class": "weui-dialog__ft"
-                  },
-                  "children": [
-                    {
-                      "type": "element",
-                      "tag": "a",
-                      "attributes": {
-                        "role": "button",
-                        "id": "js_product_dialog_cancel",
-                        "href": "javascript:void(0);",
-                        "class": "weui-dialog__btn weui-dialog__btn_default"
-                      },
-                      "children": [
-                        {
-                          "type": "text",
-                          "text": "Cancel"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "element",
-                      "tag": "a",
-                      "attributes": {
-                        "role": "button",
-                        "id": "js_product_dialog_ok",
-                        "href": "javascript:void(0);",
-                        "class": "weui-dialog__btn weui-dialog__btn_primary"
-                      },
-                      "children": [
-                        {
-                          "type": "text",
-                          "text": "Allow"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "element",
-          "tag": "div",
-          "attributes": {
-            "class": "analyze_btn_wrap",
-            "id": "js_analyze_btn"
-          },
-          "children": [
-            {
-              "type": "element",
-              "tag": "button",
-              "attributes": {
-                "class": "close-button"
-              },
-              "children": [
-                {
-                  "type": "text",
-                  "text": "×"
-                }
-              ]
-            },
-            {
-              "type": "element",
-              "tag": "button",
-              "attributes": {
-                "class": "go-button wx_tap_card js_wx_tap_highlight"
-              },
-              "children": [
-                {
-                  "type": "text",
-                  "text": "分析"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "element",
-          "tag": "div",
-          "attributes": {
-            "class": "weui-dialog__wrp jump_wx_qrcode_dialog",
-            "id": "js_jump_wx_qrcode_dialog",
-            "role": "dialog"
-          },
-          "children": [
-            {
-              "type": "element",
-              "tag": "div",
-              "attributes": {
-                "class": "weui-dialog"
-              },
-              "children": [
-                {
-                  "type": "element",
-                  "tag": "div",
-                  "attributes": {
-                    "class": "weui-dialog__hd"
-                  },
-                  "children": [
-                    {
-                      "type": "element",
-                      "tag": "div",
-                      "attributes": {
-                        "class": "qrcode-con"
-                      },
-                      "children": [
-                        {
-                          "type": "element",
-                          "tag": "img",
-                          "attributes": {
-                            "class": "jump_wx_qrcode_img js_qrcode_img",
-                            "src": "",
-                            "alt": "跳转二维码"
-                          },
-                          "children": []
-                        },
-                        {
-                          "type": "element",
-                          "tag": "img",
-                          "attributes": {
-                            "class": "jump_author_avatar",
-                            "src": "http://mmbiz.qpic.cn/sz_mmbiz_png/cFWFibBpTbSecnvk38OLNQnaFrRGfQJ9z4gmwwvSYEM5pPT2kvYub9oMIWCibvHVABwRx4ib9ibP52TeiazE4Rm6umA/0?wx_fmt=png",
-                            "alt": "作者头像"
-                          },
-                          "children": [],
-                          "flattenedTags": [
-                            "div"
-                          ],
-                          "flattenedClasses": [
-                            "jump_author_avatar_con"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "element",
-                  "tag": "p",
-                  "attributes": {
-                    "class": "jump_wx_qrcode_desc"
-                  },
-                  "children": [
-                    {
-                      "type": "text",
-                      "text": "微信扫一扫可打开此内容，"
-                    },
-                    {
-                      "type": "element",
-                      "tag": "br",
-                      "attributes": {},
-                      "children": []
-                    },
-                    {
-                      "type": "text",
-                      "text": "使用完整服务"
-                    }
-                  ],
-                  "flattenedTags": [
-                    "div"
-                  ],
-                  "flattenedClasses": [
-                    "weui-dialog__bd"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "text",
-          "text": ":",
-          "flattenedTags": [
-            "span"
-          ],
-          "flattenedClasses": [
-            "weui-a11y_ref"
-          ]
-        },
-        {
-          "type": "text",
-          "text": "，",
-          "flattenedTags": [
-            "span"
-          ],
-          "flattenedClasses": [
-            "weui-a11y_ref"
-          ]
-        },
-        {
-          "type": "text",
-          "text": "，",
-          "flattenedTags": [
-            "span"
-          ],
-          "flattenedClasses": [
-            "weui-a11y_ref"
-          ]
-        },
-        {
-          "type": "text",
-          "text": "，",
-          "flattenedTags": [
-            "span"
-          ],
-          "flattenedClasses": [
-            "weui-a11y_ref"
-          ]
-        },
-        {
-          "type": "text",
-          "text": "，",
-          "flattenedTags": [
-            "span"
-          ],
-          "flattenedClasses": [
-            "weui-a11y_ref"
-          ]
-        },
-        {
-          "type": "text",
-          "text": "，",
-          "flattenedTags": [
-            "span"
-          ],
-          "flattenedClasses": [
-            "weui-a11y_ref"
-          ]
-        },
-        {
-          "type": "text",
-          "text": "，",
-          "flattenedTags": [
-            "span"
-          ],
-          "flattenedClasses": [
-            "weui-a11y_ref"
-          ]
-        },
-        {
-          "type": "text",
-          "text": "，",
-          "flattenedTags": [
-            "span"
-          ],
-          "flattenedClasses": [
-            "weui-a11y_ref"
-          ]
-        },
-        {
-          "type": "text",
-          "text": "，",
-          "flattenedTags": [
-            "span"
-          ],
-          "flattenedClasses": [
-            "weui-a11y_ref"
-          ]
-        },
-        {
-          "type": "text",
-          "text": "，",
-          "flattenedTags": [
-            "span"
-          ],
-          "flattenedClasses": [
-            "weui-a11y_ref"
-          ]
-        },
-        {
-          "type": "text",
-          "text": "，",
-          "flattenedTags": [
-            "span"
-          ],
-          "flattenedClasses": [
-            "weui-a11y_ref"
-          ]
-        },
-        {
-          "type": "text",
-          "text": "，",
-          "flattenedTags": [
-            "span"
-          ],
-          "flattenedClasses": [
-            "weui-a11y_ref"
-          ]
-        },
-        {
-          "type": "text",
-          "text": "，",
-          "flattenedTags": [
-            "span"
-          ],
-          "flattenedClasses": [
-            "weui-a11y_ref"
-          ]
-        },
-        {
-          "type": "text",
-          "text": ".",
-          "flattenedTags": [
-            "span"
-          ],
-          "flattenedClasses": [
-            "weui-a11y_ref"
-          ]
-        },
-        {
-          "type": "text",
-          "text": " ",
-          "flattenedTags": [
-            "span"
-          ],
-          "flattenedClasses": [
-            "weui-a11y_ref"
-          ]
-        },
-        {
-          "type": "text",
-          "text": "Video",
-          "flattenedTags": [
-            "span"
-          ],
-          "flattenedClasses": [
-            "weui-a11y_ref"
-          ]
-        },
-        {
-          "type": "text",
-          "text": "Mini Program",
-          "flattenedTags": [
-            "span"
-          ],
-          "flattenedClasses": [
-            "weui-a11y_ref"
-          ]
-        },
-        {
-          "type": "text",
-          "text": "Like",
-          "flattenedTags": [
-            "span"
-          ],
-          "flattenedClasses": [
-            "weui-a11y_ref"
-          ]
-        },
-        {
-          "type": "text",
-          "text": "，轻点两下取消赞",
-          "flattenedTags": [
-            "span"
-          ],
-          "flattenedClasses": [
-            "weui-a11y_ref"
-          ]
-        },
-        {
-          "type": "text",
-          "text": "Wow",
-          "flattenedTags": [
-            "span"
-          ],
-          "flattenedClasses": [
-            "weui-a11y_ref"
-          ]
-        },
-        {
-          "type": "text",
-          "text": "，轻点两下取消在看",
-          "flattenedTags": [
-            "span"
-          ],
-          "flattenedClasses": [
-            "weui-a11y_ref"
-          ]
-        },
-        {
-          "type": "text",
-          "text": "Share",
-          "flattenedTags": [
-            "span"
-          ],
-          "flattenedClasses": [
-            "weui-a11y_ref"
-          ]
-        },
-        {
-          "type": "text",
-          "text": "Comment",
-          "flattenedTags": [
-            "span"
-          ],
-          "flattenedClasses": [
-            "weui-a11y_ref"
-          ]
-        },
-        {
-          "type": "text",
-          "text": "Favorite",
-          "flattenedTags": [
-            "span"
-          ],
-          "flattenedClasses": [
-            "weui-a11y_ref"
-          ]
-        },
-        {
-          "type": "text",
-          "text": "听过",
-          "flattenedTags": [
-            "span"
-          ],
-          "flattenedClasses": [
-            "weui-a11y_ref"
           ]
         }
       ]

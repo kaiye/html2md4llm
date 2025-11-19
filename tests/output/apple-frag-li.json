@@ -4,28 +4,6 @@
   "attributes": {},
   "children": [
     {
-      "type": "element",
-      "tag": "picture",
-      "attributes": {
-        "class": "svelte-uduhys"
-      },
-      "children": [
-        {
-          "type": "element",
-          "tag": "img",
-          "attributes": {
-            "alt": "",
-            "class": "artwork-component__contents artwork-component__image svelte-uduhys",
-            "src": "/assets/artwork/1x1.gif",
-            "role": "presentation",
-            "width": "24",
-            "height": "24"
-          },
-          "children": []
-        }
-      ]
-    },
-    {
       "type": "text",
       "text": "Word",
       "flattenedTags": [
@@ -124,38 +102,6 @@
                     },
                     {
                       "type": "element",
-                      "tag": "picture",
-                      "attributes": {
-                        "class": "svelte-uduhys"
-                      },
-                      "children": [
-                        {
-                          "type": "element",
-                          "tag": "img",
-                          "attributes": {
-                            "alt": "",
-                            "class": "artwork-component__contents artwork-component__image svelte-uduhys",
-                            "src": "/assets/artwork/1x1.gif",
-                            "role": "presentation",
-                            "width": "100",
-                            "height": "100"
-                          },
-                          "children": []
-                        }
-                      ],
-                      "flattenedTags": [
-                        "div",
-                        "div",
-                        "div"
-                      ],
-                      "flattenedClasses": [
-                        "app-icon-container svelte-14lvfi0",
-                        "app-icon svelte-166xw8t     rounded-rect-prerendered",
-                        "artwork-component artwork-component--aspect-ratio artwork-component--orientation-square svelte-uduhys    artwork-component--fullwidth    artwork-component--has-borders artwork-component--no-anchor"
-                      ]
-                    },
-                    {
-                      "type": "element",
                       "tag": "div",
                       "attributes": {
                         "class": "metadata-container svelte-14lvfi0"
@@ -245,38 +191,6 @@
                       ],
                       "flattenedClasses": [
                         "ordinal svelte-14lvfi0"
-                      ]
-                    },
-                    {
-                      "type": "element",
-                      "tag": "picture",
-                      "attributes": {
-                        "class": "svelte-uduhys"
-                      },
-                      "children": [
-                        {
-                          "type": "element",
-                          "tag": "img",
-                          "attributes": {
-                            "alt": "",
-                            "class": "artwork-component__contents artwork-component__image svelte-uduhys",
-                            "src": "/assets/artwork/1x1.gif",
-                            "role": "presentation",
-                            "width": "100",
-                            "height": "100"
-                          },
-                          "children": []
-                        }
-                      ],
-                      "flattenedTags": [
-                        "div",
-                        "div",
-                        "div"
-                      ],
-                      "flattenedClasses": [
-                        "app-icon-container svelte-14lvfi0",
-                        "app-icon svelte-166xw8t     rounded-rect-prerendered",
-                        "artwork-component artwork-component--aspect-ratio artwork-component--orientation-square svelte-uduhys    artwork-component--fullwidth    artwork-component--has-borders artwork-component--no-anchor"
                       ]
                     },
                     {

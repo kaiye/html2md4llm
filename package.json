@@ -1,0 +1,36 @@
+{
+  "name": "html2md4llm",
+  "version": "1.0.0",
+  "description": "Convert HTML to clean Markdown or JSON format, optimized for LLM processing",
+  "type": "module",
+  "main": "src/main.js",
+  "exports": {
+    ".": "./src/main.js"
+  },
+  "scripts": {
+    "test": "node tests/run-tests.js"
+  },
+  "keywords": [
+    "html",
+    "markdown",
+    "json",
+    "converter",
+    "llm",
+    "parser",
+    "html-to-markdown"
+  ],
+  "author": "kaiye",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaiye/html2md4llm.git"
+  },
+  "files": [
+    "src/**/*",
+    "README.md",
+    "LICENSE"
+  ]
+}

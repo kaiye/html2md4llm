@@ -5,11 +5,12 @@ function cleanText(text) {
 }
 
 export function parse(html, removeAttributes = []) {
-  // Default blacklist
-  const defaultBlacklist = ['style', 'loading', 'decoding', 'fetchpriority'];
+  // Default blacklist (style temporarily preserved for display:none filtering)
+  const defaultBlacklist = ['loading', 'decoding', 'fetchpriority'];
   const blacklist = [...defaultBlacklist, ...removeAttributes];
 
   function shouldRemove(attrName) {
+    if (attrName === 'style') return false; // Preserve for filtering
     if (attrName.startsWith('data-')) return true;
     return blacklist.some(pattern => {
       if (pattern.endsWith('-*')) {
@@ -128,6 +129,23 @@ export function parse(html, removeAttributes = []) {
     node.children = node.children.filter(child => {
       if (child.type === 'text') return true;
       if (child.type === 'element') {
+        // Filter elements with display:none
+        const style = child.attributes.style;
+        if (style && /display\s*:\s*none/i.test(style)) return false;
+
+        // Filter ARIA hidden elements
+        if (child.attributes['aria-hidden'] === 'true') return false;
+        if (child.attributes.tabindex === '-1') return false;
+        if (child.attributes.hidden !== undefined) return false;
+        const role = child.attributes.role;
+        if (role === 'presentation' || role === 'none') return false;
+
+        // Filter img without src
+        if (child.tag === 'img' && !child.attributes.src) return false;
+
+        // Filter a with javascript: href
+        if (child.tag === 'a' && child.attributes.href?.startsWith('javascript:')) return false;
+
         // Keep description and keywords meta tags, remove others
         if (child.tag === 'meta') {
           const name = child.attributes.name;
@@ -140,6 +158,8 @@ export function parse(html, removeAttributes = []) {
         if (voidElements.includes(child.tag)) return true;
         // Recursively process children
         removeUnwantedNodes(child);
+        // Remove style attribute after filtering
+        delete child.attributes.style;
         // Remove empty nodes
         if (child.children && child.children.length === 0) return false;
       }
@@ -181,8 +201,8 @@ export function parse(html, removeAttributes = []) {
   }
 
   flattenPreCode(root);
-  flattenContainers(root);
   removeUnwantedNodes(root);
+  flattenContainers(root);
 
   return root.children.length === 1 ? root.children[0] : root;
 }
