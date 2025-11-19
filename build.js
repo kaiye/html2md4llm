@@ -1,5 +1,6 @@
 import * as esbuild from 'esbuild';
 import { readFileSync, writeFileSync, unlinkSync } from 'fs';
+import { execSync } from 'child_process';
 
 // Build with esbuild
 await esbuild.build({
@@ -38,3 +39,15 @@ unlinkSync('dist/temp.min.js');
 
 console.log('✓ Built dist/html2md4llm.js');
 console.log('✓ Built dist/html2md4llm.min.js');
+
+// Package Dify plugin
+const manifest = JSON.parse(readFileSync('plugin/manifest.json', 'utf-8'));
+const version = manifest.version;
+const pluginPackage = `html2md4llm-${version}.tar.gz`;
+
+try {
+  execSync(`cd plugin && tar -czf ../${pluginPackage} * && cd ..`, { stdio: 'ignore' });
+  console.log(`✓ Packaged ${pluginPackage}`);
+} catch (err) {
+  console.warn('⚠ Failed to package plugin (tar not available)');
+}
