@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "html2md4llm"
+version = "1.0.0"
+description = "Convert HTML to clean Markdown or JSON format, optimized for LLM processing"
+readme = "README.md"
+requires-python = ">=3.12"
+license = {text = "MIT"}
+authors = [
+    {name = "kaiye", email = "kaiye@example.com"}
+]
+keywords = ["html", "markdown", "json", "converter", "llm", "parser"]
+
+[project.urls]
+Homepage = "https://github.com/kaiye/html2md4llm"

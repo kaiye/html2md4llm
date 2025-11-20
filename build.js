@@ -40,14 +40,62 @@ unlinkSync('dist/temp.min.js');
 console.log('✓ Built dist/html2md4llm.js');
 console.log('✓ Built dist/html2md4llm.min.js');
 
-// Package Dify plugin
-const manifest = JSON.parse(readFileSync('plugin/manifest.json', 'utf-8'));
-const version = manifest.version;
-const pluginPackage = `html2md4llm-${version}.tar.gz`;
-
+// Package Dify plugin as .difypkg (ZIP archive)
 try {
-  execSync(`cd plugin && tar -czf ../${pluginPackage} * && cd ..`, { stdio: 'ignore' });
-  console.log(`✓ Packaged ${pluginPackage}`);
+  // Import archiver dynamically
+  const archiver = await import('archiver');
+  const archiverDefault = archiver.default;
+
+  // Read manifest to get version
+  const manifestYaml = readFileSync('plugin/manifest.yaml', 'utf-8');
+  const versionMatch = manifestYaml.match(/^version:\s*([^\n]+)/m);
+  const version = versionMatch ? versionMatch[1].trim() : '1.0.0';
+
+  const pluginPackage = `dist/html2md4llm-${version}.difypkg`;
+
+  // Ensure dist directory exists
+  execSync('mkdir -p dist', { stdio: 'ignore' });
+
+  // Create ZIP archive
+  const { createWriteStream, readdirSync, statSync } = await import('fs');
+  const { join } = await import('path');
+
+  const output = createWriteStream(pluginPackage);
+  const archive = archiverDefault('zip', { zlib: { level: 6 } });
+
+  archive.pipe(output);
+
+  // Add files from plugin directory recursively, but NOT directory entries
+
+  function addFilesRecursively(dir, baseDir = '') {
+    const files = readdirSync(dir);
+    for (const file of files) {
+      const fullPath = join(dir, file);
+      const archivePath = baseDir ? join(baseDir, file) : file;
+      const stat = statSync(fullPath);
+
+      if (stat.isDirectory()) {
+        // Recursively add files from subdirectory, but don't add directory entry
+        addFilesRecursively(fullPath, archivePath);
+      } else if (stat.isFile()) {
+        // Add file to archive
+        archive.file(fullPath, { name: archivePath });
+      }
+    }
+  }
+
+  addFilesRecursively('plugin');
+
+  await archive.finalize();
+
+  // Wait for stream to finish
+  await new Promise((resolve, reject) => {
+    output.on('finish', resolve);
+    output.on('error', reject);
+  });
+
+  console.log(`✓ Packaged dist/html2md4llm-${version}.difypkg`);
 } catch (err) {
-  console.warn('⚠ Failed to package plugin (tar not available)');
+  console.warn('⚠ Failed to package Dify plugin (.difypkg)');
+  console.warn('  Install archiver: npm install -D archiver');
 }

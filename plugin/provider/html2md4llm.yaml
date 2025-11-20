@@ -1,0 +1,21 @@
+identity:
+  author: kaiye
+  name: html2md4llm
+  label:
+    en_US: html2md4llm
+    zh_Hans: html2md4llm
+  description:
+    en_US: Convert HTML to Markdown or JSON format
+    zh_Hans: 将 HTML 转换为 Markdown 或 JSON 格式
+  icon: icon.svg
+  tags:
+    - utilities
+    - parser
+    - converter
+credentials_for_provider: {}
+tools:
+  - tools/markdown/config.yaml
+  - tools/json/config.yaml
+extra:
+  python:
+    source: provider/html2md4llm.py

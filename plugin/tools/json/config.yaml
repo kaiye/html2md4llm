@@ -1,0 +1,48 @@
+identity:
+  name: html_to_json
+  author: kaiye
+  label:
+    en_US: HTML to JSON
+    zh_Hans: HTML 转 JSON
+description:
+  human:
+    en_US: Convert HTML to JSON virtual DOM tree
+    zh_Hans: 将 HTML 转换为 JSON 虚拟 DOM 树
+  llm: Convert HTML string to JSON DOM tree for structured processing
+parameters:
+  - name: html_input
+    type: string
+    required: true
+    label:
+      en_US: HTML Input
+      zh_Hans: HTML 输入
+    human_description:
+      en_US: The HTML content to convert to JSON
+      zh_Hans: 要转换为 JSON 的 HTML 内容
+    llm_description: HTML string to be converted
+    form: llm
+  - name: remove_attributes
+    type: string
+    required: false
+    label:
+      en_US: Attributes to Remove (comma-separated)
+      zh_Hans: 要移除的属性 (逗号分隔)
+    human_description:
+      en_US: Optional list of attribute names to remove from HTML elements, separated by comma. Supports wildcards with -* suffix.
+      zh_Hans: 可选，要从 HTML 元素中移除的属性名列表，用逗号分隔。支持使用 -* 后缀的通配符。
+    llm_description: Comma-separated list of attributes to remove
+    form: llm
+  - name: strategy
+    type: string
+    required: false
+    label:
+      en_US: Extraction Strategy
+      zh_Hans: 提取策略
+    human_description:
+      en_US: Optional extraction strategy. Use 'list' to extract largest list, 'article' to extract main article content.
+      zh_Hans: 可选提取策略。使用 'list' 提取最大列表，使用 'article' 提取主要文章内容。
+    llm_description: "Strategy: 'list', 'article', or empty for no extraction"
+    form: llm
+extra:
+  python:
+    source: tools/json/invoke.py
