@@ -2,3 +2,12 @@
 node_modules/
 dist/
 *.tar.gz
+
+# Security - never commit private keys
+*.private.pem
+*.private.key
+
+# Temporary files
+.DS_Store
+*.pyc
+__pycache__/
