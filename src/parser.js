@@ -123,6 +123,22 @@ export function parse(html, removeAttributes = []) {
     }
   }
 
+  // Helper function to check if a node has substantive content
+  function hasSubstantiveContent(node) {
+    if (node.type === 'text') {
+      return node.text.trim().length > 0;
+    }
+    if (node.type === 'element') {
+      // Content elements (img, a) count as substantive
+      if (['img', 'a'].includes(node.tag)) return true;
+      // Non-content elements (br, hr) don't count as substantive
+      if (['br', 'hr'].includes(node.tag)) return false;
+      // Recursively check if any child has substantive content
+      return node.children?.some(hasSubstantiveContent) ?? false;
+    }
+    return false;
+  }
+
   function removeUnwantedNodes(node) {
     if (!node.children) return;
 
@@ -160,6 +176,11 @@ export function parse(html, removeAttributes = []) {
         removeUnwantedNodes(child);
         // Remove style attribute after filtering
         delete child.attributes.style;
+        // Filter empty formatting elements (strong, em, b, i, code) without substantive content
+        const formattingElements = ['strong', 'em', 'b', 'i', 'code'];
+        if (formattingElements.includes(child.tag) && !hasSubstantiveContent(child)) {
+          return false;
+        }
         // Remove empty nodes
         if (child.children && child.children.length === 0) return false;
       }

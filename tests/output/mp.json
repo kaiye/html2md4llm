@@ -2,7 +2,7 @@
   "type": "element",
   "tag": "html",
   "attributes": {
-    "class": "\r\n"
+    "class": "\n"
   },
   "children": [
     {
@@ -26,7 +26,7 @@
       "tag": "body",
       "attributes": {
         "id": "activity-detail",
-        "class": "zh_CN wx_wap_page \r\n\r\n                                            wx_wap_desktop_fontsize_2    mm_appmsg\r\n comment_feature\r\n discuss_tab appmsg_skin_default appmsg_style_default "
+        "class": "zh_CN wx_wap_page \n\n                                            wx_wap_desktop_fontsize_2    mm_appmsg\n comment_feature\n discuss_tab appmsg_skin_default appmsg_style_default "
       },
       "children": [
         {
@@ -118,7 +118,7 @@
                       "type": "element",
                       "tag": "div",
                       "attributes": {
-                        "class": "rich_media_content js_underline_content\r\n                       autoTypeSetting24psection\r\n            ",
+                        "class": "rich_media_content js_underline_content\n                       autoTypeSetting24psection\n            ",
                         "id": "js_content"
                       },
                       "children": [
