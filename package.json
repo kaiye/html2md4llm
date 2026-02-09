@@ -1,15 +1,20 @@
 {
   "name": "html2md4llm",
-  "version": "1.0.0",
-  "description": "Convert HTML to clean Markdown or JSON format, optimized for LLM processing",
+  "version": "1.1.0",
+  "description": "Convert HTML to clean Markdown or JSON, optimized for LLM processing",
   "type": "module",
   "main": "src/main.js",
+  "bin": {
+    "html2md4llm": "bin/html2md4llm.js"
+  },
   "exports": {
-    ".": "./src/main.js"
+    ".": {
+      "import": "./src/main.js",
+      "default": "./src/main.js"
+    }
   },
   "scripts": {
-    "test": "node tests/run-tests.js",
-    "build": "node build.js"
+    "test": "node tests/run-tests.js"
   },
   "keywords": [
     "html",
@@ -17,6 +22,8 @@
     "json",
     "converter",
     "llm",
+    "cli",
+    "npx",
     "parser",
     "html-to-markdown"
   ],
@@ -27,17 +34,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kaiye/html2md4llm.git"
+    "url": "git+https://github.com/kaiye/html2md4llm.git"
   },
   "files": [
     "src/**/*",
-    "dist/**/*",
-    "plugin/**/*",
+    "bin/**/*",
     "README.md",
     "LICENSE"
-  ],
-  "devDependencies": {
-    "archiver": "^7.0.1",
-    "esbuild": "^0.27.0"
-  }
+  ]
 }

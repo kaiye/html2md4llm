@@ -37,6 +37,9 @@ export function main(htmlInput, options = {}) {
   return JSON.stringify(tree, (key, value) => key === 'parent' ? undefined : value, 2);
 }
 
+export const html2md4llm = main;
+export default main;
+
 function extractLargestList(node) {
   let largest = null;
   let maxCount = 0;
