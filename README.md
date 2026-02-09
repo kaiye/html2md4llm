@@ -1,6 +1,6 @@
 # html2md4llm
 
-把 HTML 转成更干净的 Markdown 或 JSON，便于给 LLM 使用。
+把 HTML 转成更干净的 Markdown 或 JSON，便于人和 AI 直接消费。
 
 ## 安装
 
@@ -8,108 +8,79 @@
 npm install html2md4llm
 ```
 
-## 在代码中引用（npm 包）
+## 最常用方式
+
+### 1) 在代码中调用
 
 ```js
 import { main } from 'html2md4llm';
 
-const markdown = main('<h1>Hello</h1><p>World</p>');
-console.log(markdown);
+const html = '<h1>Hello</h1><p>World</p>';
+const md = main(html); // 默认输出 markdown
+console.log(md);
 ```
 
-也支持默认导入：
+输出 JSON：
 
 ```js
-import html2md4llm from 'html2md4llm';
-
-const markdown = html2md4llm('<h1>Hello</h1>');
+const json = main('<h1>Hello</h1>', { outputFormat: 'json' });
 ```
 
-### API
+### 2) 用 npx 当命令行工具
 
-`main(htmlInput, options?)`
-
-- `htmlInput`：`string`，HTML 内容
-- `options.outputFormat`：`'markdown' | 'json'`，默认 `'markdown'`
-- `options.strategy`：`'list' | 'article'`
-- `options.removeAttributes`：`string[]`，例如 `['aria-*', 'role']`
-
-返回值：`string`（Markdown 或 JSON 字符串）
-
-## 命令行使用（npx / CLI）
-
-安装后可直接使用：
-
-```bash
-npx html2md4llm --help
-```
-
-### 1) 本地 HTML 文件 -> 本地 .md 文件
+本地文件转 `.md`：
 
 ```bash
 npx html2md4llm ./input.html ./output.md
 ```
 
-或：
-
-```bash
-npx html2md4llm ./input.html -o ./output.md
-```
-
-### 2) stdin / stdout（Linux 管道）
+stdin -> stdout（Linux 管道）：
 
 ```bash
 cat ./input.html | npx html2md4llm > ./output.md
 ```
 
-也可以显式用 `-` 代表 stdin：
+## API（给代码/AI 调用）
+
+`main(htmlInput, options?)`
+
+- `htmlInput: string`：HTML 字符串
+- `options.outputFormat: 'markdown' | 'json'`：默认 `'markdown'`
+- `options.strategy: 'list' | 'article'`：可选提取策略
+- `options.removeAttributes: string[]`：按规则移除属性，如 `['aria-*', 'role']`
+
+返回值：`string`（Markdown 文本或 JSON 字符串）
+
+## CLI 参数
 
 ```bash
-npx html2md4llm - --format json < ./input.html > ./output.json
+html2md4llm <input.html> [output.md] [options]
+html2md4llm - [output.md] [options]
 ```
-
-### CLI 参数
 
 - `-o, --output <file>`：输出文件路径
 - `-f, --format <markdown|json>`：输出格式
 - `--json`：等价于 `--format json`
 - `--markdown`：等价于 `--format markdown`
-- `-s, --strategy <list|article>`：提取策略
-- `-r, --remove-attrs <attrs>`：移除属性，逗号分隔（如 `aria-*,role`）
+- `-s, --strategy <list|article>`：内容提取策略
+- `-r, --remove-attrs <attrs>`：逗号分隔，如 `aria-*,role`
 - `-h, --help`：查看帮助
 - `-v, --version`：查看版本
+
+## AI 使用建议
+
+如果你在 Agent/工作流里调用这个工具，推荐固定约定：
+
+1. 输入始终传完整 HTML 字符串。
+2. 需要结构化消费时使用 `outputFormat: 'json'`。
+3. 需要最简正文时按场景加 `strategy: 'article'` 或 `strategy: 'list'`。
+4. 需要清理无关属性时传 `removeAttributes`，例如 `['aria-*', 'role', 'data-*']`。
 
 ## 开发
 
 ```bash
 npm test
 ```
-
-## 发布到 npm（GitHub CI）
-
-仓库已包含两个工作流：
-
-- `CI`：每次 push / PR 自动执行 `npm ci` + `npm test`
-- `Publish to npm`：当你 push `v*` tag 时自动发布到 npm
-
-### 一次性配置
-
-在 GitHub 仓库里设置 Secret：
-
-- `NPM_TOKEN`：npm 的 Automation Token（建议只授予发布权限）
-
-### 发布 1.1.0（当前版本）
-
-```bash
-# 在仓库根目录
-npm test
-git add package.json package-lock.json
-git commit -m "chore: release 1.1.0"
-git tag v1.1.0
-git push origin main --tags
-```
-
-推送 tag 后，GitHub Actions 会执行发布流程。
 
 ## License
 
