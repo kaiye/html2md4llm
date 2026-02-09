@@ -1,9 +1,89 @@
 """Markdown generator for converting virtual DOM to Markdown."""
 
+import re
 from typing import Any, Dict, List, Optional
 
 INLINE_ELEMENTS = {'span', 'a', 'strong', 'em', 'code', 'b', 'i'}
-BLOCK_ELEMENTS = {'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'ul', 'ol', 'pre', 'br', 'div', 'section'}
+BLOCK_ELEMENTS = {'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'ul', 'ol', 'pre', 'br', 'div', 'section', 'table'}
+TABLE_SECTIONS = {'thead', 'tbody', 'tfoot'}
+
+
+def _normalize_table_cell(text: str) -> str:
+    """Normalize table cell content for Markdown tables."""
+    text = text.replace('\r\n', '\n')
+    text = re.sub(r'\n+', '<br>', text)
+    text = re.sub(r'\s+', ' ', text)
+    text = text.replace('|', '\\|')
+    return text.strip()
+
+
+def _collect_table_rows(table_node: Dict[str, Any]) -> List[Dict[str, Any]]:
+    """Collect tr nodes from table and common section wrappers."""
+    rows: List[Dict[str, Any]] = []
+    for child in table_node.get('children', []):
+        if child.get('type') != 'element':
+            continue
+
+        tag = child.get('tag')
+        if tag == 'tr':
+            rows.append(child)
+            continue
+
+        if tag in TABLE_SECTIONS:
+            for row in child.get('children', []):
+                if row.get('type') == 'element' and row.get('tag') == 'tr':
+                    rows.append(row)
+
+    return rows
+
+
+def _render_table(node: Dict[str, Any], indent: int) -> str:
+    """Render HTML table nodes as Markdown table text."""
+    rows: List[Dict[str, Any]] = []
+    for row in _collect_table_rows(node):
+        cell_nodes = [
+            child for child in row.get('children', [])
+            if child.get('type') == 'element' and child.get('tag') in ('th', 'td')
+        ]
+
+        cells = [
+            _normalize_table_cell(''.join(generate(ch) for ch in cell.get('children', [])))
+            for cell in cell_nodes
+        ]
+        if not cells:
+            continue
+
+        rows.append({
+            'cells': cells,
+            'has_header_cell': any(cell.get('tag') == 'th' for cell in cell_nodes)
+        })
+
+    if not rows:
+        return ''
+
+    header_row_index = next((i for i, row in enumerate(rows) if row['has_header_cell']), 0)
+    header_row: List[str] = list(rows[header_row_index]['cells'])
+    body_rows: List[List[str]] = [
+        list(row['cells']) for i, row in enumerate(rows) if i != header_row_index
+    ]
+
+    column_count = max([len(header_row)] + [len(row) for row in body_rows])
+
+    while len(header_row) < column_count:
+        header_row.append('')
+    for row in body_rows:
+        while len(row) < column_count:
+            row.append('')
+
+    prefix = ' ' * indent
+
+    def row_to_line(cells: List[str]) -> str:
+        return f'{prefix}| {" | ".join(cells)} |'
+
+    separator = f'{prefix}| {" | ".join(["---"] * column_count)} |'
+    lines = [row_to_line(header_row), separator]
+    lines.extend(row_to_line(row) for row in body_rows)
+    return '\n'.join(lines)
 
 
 def is_inline(node: Dict[str, Any]) -> bool:
@@ -47,6 +127,10 @@ def generate(node: Dict[str, Any], indent: int = 0) -> str:
 
     tag = node['tag']
     children = node.get('children', [])
+
+    # Tables
+    if tag == 'table':
+        return _render_table(node, indent)
 
     # If only one child and no special handling for this tag, pass through transparently
     special_tags = {'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'ul', 'ol', 'pre', 'br', 'strong', 'b', 'em', 'i', 'code', 'a'}

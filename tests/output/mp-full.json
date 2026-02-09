@@ -1,0 +1,2321 @@
+{
+  "type": "element",
+  "tag": "html",
+  "attributes": {
+    "class": "\n"
+  },
+  "children": [
+    {
+      "type": "element",
+      "tag": "head",
+      "attributes": {},
+      "children": [
+        {
+          "type": "element",
+          "tag": "meta",
+          "attributes": {
+            "name": "description",
+            "content": "ChatGPT 第三，Claude 第二，谁是第一？"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "tag": "body",
+      "attributes": {
+        "id": "activity-detail",
+        "class": "zh_CN wx_wap_page \n\n                                            wx_wap_desktop_fontsize_2    mm_appmsg\n comment_feature\n discuss_tab appmsg_skin_default appmsg_style_default "
+      },
+      "children": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attributes": {
+            "id": "js_article",
+            "class": "rich_media"
+          },
+          "children": [
+            {
+              "type": "element",
+              "tag": "div",
+              "attributes": {
+                "id": "js_base_container",
+                "class": "rich_media_inner"
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "img",
+                  "attributes": {
+                    "src": "https://mmbiz.qpic.cn/mmbiz_jpg/csq5yXgaUWtxLsVyxEXoG4IVHicFAm0Ric0z8ibMOgichRibSTyDliaia8KTORu3959kDVT7FoqG56nVR518fJSyGYctg/0?wx_fmt=jpeg",
+                    "alt": "cover_image",
+                    "class": "wx_follow_avatar_pic"
+                  },
+                  "children": [],
+                  "flattenedTags": [
+                    "div",
+                    "div"
+                  ],
+                  "flattenedClasses": [
+                    "wx_row_immersive_stream_wrap"
+                  ]
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attributes": {
+                    "id": "img-content",
+                    "class": "rich_media_wrp"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "h1",
+                      "attributes": {
+                        "class": "rich_media_title ",
+                        "id": "activity-name"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "编程大模型聪明度排名（最新评测）",
+                          "flattenedTags": [
+                            "span"
+                          ],
+                          "flattenedClasses": [
+                            "js_title_inner"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "div",
+                      "attributes": {
+                        "id": "meta_content",
+                        "class": "rich_media_meta_list"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Original",
+                          "flattenedTags": [
+                            "span"
+                          ],
+                          "flattenedClasses": [
+                            "wx_tap_link js_wx_tap_highlight rich_media_meta icon_appmsg_tag appmsg_title_tag weui-wa-hotarea"
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "猫哥",
+                          "flattenedTags": [
+                            "span",
+                            "span"
+                          ],
+                          "flattenedClasses": [
+                            "rich_media_meta rich_media_meta_text"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "div",
+                      "attributes": {
+                        "class": "rich_media_content js_underline_content\n                       autoTypeSetting24psection\n            ",
+                        "id": "js_content"
+                      },
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "p",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "上个月我用扣子平台搭了一个拍照解数独的微信小程序，无意中发现了一张神奇的测试图片，",
+                              "flattenedTags": [
+                                "span",
+                                "span"
+                              ],
+                              "flattenedClasses": []
+                            },
+                            {
+                              "type": "element",
+                              "tag": "strong",
+                              "attributes": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "当时所有的大模型都无法正确识别出来",
+                                  "flattenedTags": [
+                                    "span",
+                                    "span"
+                                  ],
+                                  "flattenedClasses": []
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "。",
+                              "flattenedTags": [
+                                "span",
+                                "span"
+                              ],
+                              "flattenedClasses": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "这让我对 AI 编程产生了强烈的质疑：简单的图片识别都会犯错，AI 写出来的代码还有可信度吗？",
+                          "flattenedTags": [
+                            "p",
+                            "span",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "element",
+                          "tag": "p",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "后来 Claude Sonnet 4 发布，居然识别正确，我感觉 ",
+                              "flattenedTags": [
+                                "span",
+                                "span"
+                              ],
+                              "flattenedClasses": []
+                            },
+                            {
+                              "type": "element",
+                              "tag": "strong",
+                              "attributes": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "AI Coding 的“奇点时刻”已然到来",
+                                  "flattenedTags": [
+                                    "span",
+                                    "span"
+                                  ],
+                                  "flattenedClasses": []
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "。",
+                              "flattenedTags": [
+                                "span",
+                                "span"
+                              ],
+                              "flattenedClasses": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "今天我拿这张图片又测试了下市面上的顶尖大模型。厂家包括：OpenAI、Google、Claude、xAI、阿里、百度、腾讯、字节豆包、Deepseek、Kimi。",
+                          "flattenedTags": [
+                            "p",
+                            "span",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "text",
+                          "text": "以下是各家大模型的详细测评，赶时间的朋友可以直接拉到最后看汇总表格。",
+                          "flattenedTags": [
+                            "p",
+                            "span",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "element",
+                          "tag": "h2",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "测试题",
+                              "flattenedTags": [
+                                "span",
+                                "span",
+                                "span"
+                              ],
+                              "flattenedClasses": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "img",
+                          "attributes": {
+                            "class": "rich_pages wxw-img",
+                            "type": "block",
+                            "src": "https://mmbiz.qpic.cn/mmbiz_jpg/csq5yXgaUWtxLsVyxEXoG4IVHicFAm0RicjAIJfmj0WpbFsibuEAh8sB636aeYHo1fiaJsOnHaibNKZn4HIU8oTlZKw/640?wx_fmt=jpeg&amp;from=appmsg"
+                          },
+                          "children": [],
+                          "flattenedTags": [
+                            "section"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "text",
+                          "text": "把这张数独棋盘转换成JSON格式的二维数组",
+                          "flattenedTags": [
+                            "p",
+                            "span",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "element",
+                          "tag": "h2",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "ChatGPT 4o",
+                              "flattenedTags": [
+                                "span",
+                                "span",
+                                "span"
+                              ],
+                              "flattenedClasses": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "img",
+                          "attributes": {
+                            "class": "rich_pages wxw-img",
+                            "style": "width:578px;height:523px;",
+                            "type": "block",
+                            "src": "https://mmbiz.qpic.cn/mmbiz_jpg/csq5yXgaUWtxLsVyxEXoG4IVHicFAm0RicGWVco1B7R7XzDZNyTKCOtEibRO9j8GVCVHTX72oBABwxyE5PYQSQOAQ/640?wx_fmt=jpeg"
+                          },
+                          "children": [],
+                          "flattenedTags": [
+                            "section"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "text",
+                          "text": "表现不错，只错了 1 个地方，把 1608 识别成了 16008。",
+                          "flattenedTags": [
+                            "p",
+                            "span",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "element",
+                          "tag": "h2",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Kimi",
+                              "flattenedTags": [
+                                "span",
+                                "span",
+                                "span"
+                              ],
+                              "flattenedClasses": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "img",
+                          "attributes": {
+                            "class": "rich_pages wxw-img",
+                            "type": "block",
+                            "src": "https://mmbiz.qpic.cn/mmbiz_jpg/csq5yXgaUWtxLsVyxEXoG4IVHicFAm0RicHoVk94UB8onqnGHvMRO9zUPh8dOEibiaA4Pmq9cOYI87hgH55XcXhw8g/640?wx_fmt=jpeg&amp;from=appmsg"
+                          },
+                          "children": [],
+                          "flattenedTags": [
+                            "section"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "text",
+                          "text": "没眼看，Kimi 错的非常离谱！每行都错！",
+                          "flattenedTags": [
+                            "p",
+                            "span",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "element",
+                          "tag": "h2",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "阿里通义千问 Qwen3",
+                              "flattenedTags": [
+                                "span",
+                                "span",
+                                "span"
+                              ],
+                              "flattenedClasses": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "img",
+                          "attributes": {
+                            "class": "rich_pages wxw-img",
+                            "type": "block",
+                            "src": "https://mmbiz.qpic.cn/mmbiz_jpg/csq5yXgaUWtxLsVyxEXoG4IVHicFAm0RicXYAKx8buXfrBkC0LYTVA0sCWZke7CtEY1Xh0kkzyJIn5aM7ubrRwqw/640?wx_fmt=jpeg&amp;from=appmsg"
+                          },
+                          "children": [],
+                          "flattenedTags": [
+                            "section"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "text",
+                          "text": "同上，错了 5 个位置，相当拉胯！",
+                          "flattenedTags": [
+                            "p",
+                            "span",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "element",
+                          "tag": "h2",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "百度文心 4.5 Turbo",
+                              "flattenedTags": [
+                                "span",
+                                "span",
+                                "span"
+                              ],
+                              "flattenedClasses": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "img",
+                          "attributes": {
+                            "class": "rich_pages wxw-img",
+                            "type": "block",
+                            "src": "https://mmbiz.qpic.cn/mmbiz_jpg/csq5yXgaUWtxLsVyxEXoG4IVHicFAm0Ricicv2ib3ibV2lPGeVtas0tMwgwC7CF7Eaq7HHibNdJCDJz400yL92UHicuxw/640?wx_fmt=jpeg&amp;from=appmsg"
+                          },
+                          "children": [],
+                          "flattenedTags": [
+                            "section"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "text",
+                          "text": "这哥们有点特立独行，不返回 0，返回 null，而且错了 6 个位置。",
+                          "flattenedTags": [
+                            "p",
+                            "span",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "element",
+                          "tag": "h2",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "DeepSeek-V3",
+                              "flattenedTags": [
+                                "span",
+                                "span",
+                                "span"
+                              ],
+                              "flattenedClasses": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "img",
+                          "attributes": {
+                            "class": "rich_pages wxw-img",
+                            "type": "block",
+                            "src": "https://mmbiz.qpic.cn/mmbiz_png/csq5yXgaUWtxLsVyxEXoG4IVHicFAm0RicOvxgjGs7rgx2XeAgtWSZoFw8ex7vMzf8yNXdyXkaDH1hCkb33qg3Eg/640?wx_fmt=png&amp;from=appmsg"
+                          },
+                          "children": [],
+                          "flattenedTags": [
+                            "section"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "text",
+                          "text": "最离谱的应该是 deepseek，9x9 被识别成了 7x7，完全不对！ 开启 R1 推理后，它会自作聪明的在每一行的结尾补充 2 个 0…",
+                          "flattenedTags": [
+                            "p",
+                            "span",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "element",
+                          "tag": "h2",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "腾讯混元",
+                              "flattenedTags": [
+                                "span",
+                                "span",
+                                "span"
+                              ],
+                              "flattenedClasses": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "img",
+                          "attributes": {
+                            "class": "rich_pages wxw-img",
+                            "type": "block",
+                            "src": "https://mmbiz.qpic.cn/mmbiz_jpg/csq5yXgaUWtxLsVyxEXoG4IVHicFAm0Riccd3MsNCk6hcqgEy2CibicCkVdwV0f1RrumpiajAllbaUugbOxdXrEhS7g/640?wx_fmt=jpeg&amp;from=appmsg"
+                          },
+                          "children": [],
+                          "flattenedTags": [
+                            "section"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "text",
+                          "text": "腾讯的混元大模型已经是国产中表现相对较好的了，错了 3 个位置。",
+                          "flattenedTags": [
+                            "p",
+                            "span",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "element",
+                          "tag": "h2",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "豆包（最新，版本号未知）",
+                              "flattenedTags": [
+                                "span",
+                                "span",
+                                "span"
+                              ],
+                              "flattenedClasses": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "img",
+                          "attributes": {
+                            "class": "rich_pages wxw-img",
+                            "type": "block",
+                            "src": "https://mmbiz.qpic.cn/mmbiz_jpg/csq5yXgaUWtxLsVyxEXoG4IVHicFAm0Ric4iae7rSV7tkaJExyKicwZjS5w8icRzFmkpRkEhtXb2ic27r5UhXF3miabWg/640?wx_fmt=jpeg&amp;from=appmsg"
+                          },
+                          "children": [],
+                          "flattenedTags": [
+                            "section"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "text",
+                          "text": "豆包真的是国产之光，竟然解对了，速度也是飞快！",
+                          "flattenedTags": [
+                            "p",
+                            "span",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "element",
+                          "tag": "h2",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "豆包·视觉理解·Pro·1.5",
+                              "flattenedTags": [
+                                "span",
+                                "span",
+                                "span"
+                              ],
+                              "flattenedClasses": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "br",
+                          "attributes": {},
+                          "children": [],
+                          "flattenedTags": [
+                            "section",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "element",
+                          "tag": "img",
+                          "attributes": {
+                            "class": "rich_pages wxw-img",
+                            "type": "block",
+                            "src": "https://mmbiz.qpic.cn/mmbiz_png/csq5yXgaUWtxLsVyxEXoG4IVHicFAm0RicPAosYoz67PJQTeNw1ib2ItvWRP0WqbibFQMZVib9pX3oiaNT68aHYkV9ibQ/640?wx_fmt=png&amp;from=appmsg"
+                          },
+                          "children": [],
+                          "flattenedTags": [
+                            "section"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "element",
+                          "tag": "p",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "element",
+                              "tag": "br",
+                              "attributes": {},
+                              "children": [],
+                              "flattenedTags": [
+                                "span"
+                              ],
+                              "flattenedClasses": []
+                            },
+                            {
+                              "type": "text",
+                              "text": "但扣子平台上提供给开发者的豆包大模型，表现不行，错了 3 个。",
+                              "flattenedTags": [
+                                "span",
+                                "span"
+                              ],
+                              "flattenedClasses": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "h2",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "ChatGPT o3",
+                              "flattenedTags": [
+                                "span",
+                                "span",
+                                "span"
+                              ],
+                              "flattenedClasses": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "img",
+                          "attributes": {
+                            "class": "rich_pages wxw-img",
+                            "style": "width:572px;height:569px;",
+                            "type": "block",
+                            "src": "https://mmbiz.qpic.cn/mmbiz_jpg/csq5yXgaUWtxLsVyxEXoG4IVHicFAm0Ric7ria4wVq5JXRoHavNeKX0yWicCxdatbNdPXiaOD5cF5iccq3iakq1czNWKw/640?wx_fmt=jpeg"
+                          },
+                          "children": [],
+                          "flattenedTags": [
+                            "section"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "text",
+                          "text": "o3 对是对了，但推理时长居然长达 7 分 5 秒，速度比 3 岁小孩还慢。",
+                          "flattenedTags": [
+                            "p",
+                            "span",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "element",
+                          "tag": "h2",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Grok-3",
+                              "flattenedTags": [
+                                "span",
+                                "span",
+                                "span"
+                              ],
+                              "flattenedClasses": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "img",
+                          "attributes": {
+                            "class": "rich_pages wxw-img",
+                            "src": "https://mmbiz.qpic.cn/mmbiz_jpg/csq5yXgaUWtxLsVyxEXoG4IVHicFAm0Ric23Ok6uQfBXCPmAfkicNiaeU4nmneaUEwRYBGbIl593lpIkKFxfb1fwTQ/640?wx_fmt=jpeg&amp;from=appmsg"
+                          },
+                          "children": [],
+                          "flattenedTags": [
+                            "section"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "element",
+                          "tag": "figure",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "element",
+                              "tag": "br",
+                              "attributes": {},
+                              "children": [],
+                              "flattenedTags": [
+                                "span"
+                              ],
+                              "flattenedClasses": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "马斯克家的 Grok-3 和 GPT-4o 一样，错了 1 个，且位置相同（🐶）。",
+                          "flattenedTags": [
+                            "p",
+                            "span",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "element",
+                          "tag": "h2",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Gemini-2.5-Pro",
+                              "flattenedTags": [
+                                "span",
+                                "span",
+                                "span"
+                              ],
+                              "flattenedClasses": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "img",
+                          "attributes": {
+                            "class": "rich_pages wxw-img",
+                            "type": "block",
+                            "src": "https://mmbiz.qpic.cn/mmbiz_jpg/csq5yXgaUWtxLsVyxEXoG4IVHicFAm0RicFTdSAZu0rLReLXJ8MB1Odpclpj9ibYT4NiaXE9q7YaXnxUicmtQ0Rj7QQ/640?wx_fmt=jpeg&amp;from=appmsg"
+                          },
+                          "children": [],
+                          "flattenedTags": [
+                            "section"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "element",
+                          "tag": "figure",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "element",
+                              "tag": "br",
+                              "attributes": {},
+                              "children": [],
+                              "flattenedTags": [
+                                "span"
+                              ],
+                              "flattenedClasses": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "Google 家的表现中规中矩，错了 2 个。",
+                          "flattenedTags": [
+                            "p",
+                            "span",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "element",
+                          "tag": "h2",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Claude Sonnet 4",
+                              "flattenedTags": [
+                                "span",
+                                "span",
+                                "span"
+                              ],
+                              "flattenedClasses": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "img",
+                          "attributes": {
+                            "class": "rich_pages wxw-img",
+                            "type": "block",
+                            "src": "https://mmbiz.qpic.cn/mmbiz_jpg/csq5yXgaUWtxLsVyxEXoG4IVHicFAm0RiciaicWCicicqz07lsAiahicF2Goone083JibFMlBJDpsJZcxiauvice4nTPdZs1A/640?wx_fmt=jpeg&amp;from=appmsg"
+                          },
+                          "children": [],
+                          "flattenedTags": [
+                            "section"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "text",
+                          "text": "果然 Claude 4 都答对了（包括 Sonnet 4 和 Opus 4），但我多试了几次，发现有时候也会答错。",
+                          "flattenedTags": [
+                            "p",
+                            "span",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "element",
+                          "tag": "p",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "所以，",
+                              "flattenedTags": [
+                                "span",
+                                "span"
+                              ],
+                              "flattenedClasses": []
+                            },
+                            {
+                              "type": "element",
+                              "tag": "strong",
+                              "attributes": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "可能上面那些答错的 LLM，也有一定几率能答对。",
+                                  "flattenedTags": [
+                                    "span",
+                                    "span"
+                                  ],
+                                  "flattenedClasses": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "h2",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "大模型聪明度排名",
+                              "flattenedTags": [
+                                "span",
+                                "span",
+                                "span"
+                              ],
+                              "flattenedClasses": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "table",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "element",
+                              "tag": "thead",
+                              "attributes": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "tr",
+                                  "attributes": {},
+                                  "children": [
+                                    {
+                                      "type": "element",
+                                      "tag": "th",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "排名",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "th",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "模型名称",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "th",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "错误数量",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "th",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "特殊说明",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "th",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "聪明度评级",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "tbody",
+                              "attributes": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "tr",
+                                  "attributes": {},
+                                  "children": [
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "🥇",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "豆包（最新未知版本）",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "0",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "完全正确，速度快，国产之光",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "⭐⭐⭐⭐⭐",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "element",
+                                  "tag": "tr",
+                                  "attributes": {},
+                                  "children": [
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "🥈",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "Claude Sonnet 4",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "0",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "完全正确，但偶尔也会错",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "⭐⭐⭐⭐⭐",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "element",
+                                  "tag": "tr",
+                                  "attributes": {},
+                                  "children": [
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "🥉",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "ChatGPT o3",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "0",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "正确，但推理时间长达7分5秒",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "⭐⭐⭐⭐",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "element",
+                                  "tag": "tr",
+                                  "attributes": {},
+                                  "children": [
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "4",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "ChatGPT 4o",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "1",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "把1608识别成了16008",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "⭐⭐⭐⭐",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "element",
+                                  "tag": "tr",
+                                  "attributes": {},
+                                  "children": [
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "4",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "Grok-3",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "1",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "同上",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "⭐⭐⭐⭐",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "element",
+                                  "tag": "tr",
+                                  "attributes": {},
+                                  "children": [
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "6",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "Gemini-2.5-Pro",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "2",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "错误较少",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "⭐⭐⭐",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "element",
+                                  "tag": "tr",
+                                  "attributes": {},
+                                  "children": [
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "7",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "腾讯混元",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "3",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "国产中表现相对较好",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "⭐⭐⭐",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "element",
+                                  "tag": "tr",
+                                  "attributes": {},
+                                  "children": [
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "7",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "豆包·视觉理解·Pro·1.5",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "3",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "扣子平台开发者版本",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "⭐⭐⭐",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "element",
+                                  "tag": "tr",
+                                  "attributes": {},
+                                  "children": [
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "9",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "阿里通义千问 Qwen3",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "5",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "表现不佳",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "⭐⭐",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "element",
+                                  "tag": "tr",
+                                  "attributes": {},
+                                  "children": [
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "10",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "百度文心 4.5 Turbo",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "6",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "表现较差",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "⭐⭐",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "element",
+                                  "tag": "tr",
+                                  "attributes": {},
+                                  "children": [
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "11",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "Kimi",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "多处错误",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "很离谱，每行都错",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "⭐",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "element",
+                                  "tag": "tr",
+                                  "attributes": {},
+                                  "children": [
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "12",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "DeepSeek-V3",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "严重错误",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "完全不对，9x9识别成7x7",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "element",
+                                      "tag": "td",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "text": "⭐",
+                                          "flattenedTags": [
+                                            "section",
+                                            "span",
+                                            "span"
+                                          ],
+                                          "flattenedClasses": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "p",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "综上，我的个人建议是：当前 AI 编程使用相对聪明一些的大模型，因为",
+                              "flattenedTags": [
+                                "span",
+                                "span"
+                              ],
+                              "flattenedClasses": []
+                            },
+                            {
+                              "type": "element",
+                              "tag": "strong",
+                              "attributes": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "代码世界里没有\"差不多先生\"，一个字符的错误就能让整个程序世界，彻底崩溃",
+                                  "flattenedTags": [
+                                    "span",
+                                    "span"
+                                  ],
+                                  "flattenedClasses": []
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "。",
+                              "flattenedTags": [
+                                "span",
+                                "span"
+                              ],
+                              "flattenedClasses": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "hr",
+                          "attributes": {
+                            "style": "box-sizing: initial;height: 1px;overflow: visible;margin: 10px 0px;border: none;padding: 0px;text-align: center;background-image: linear-gradient(to right, rgba(248, 57, 41, 0), rgba(248, 57, 41, 0.75), rgba(248, 57, 41, 0));color: rgb(0, 0, 0);font-family: PingFangSC-Light;font-size: 16px;font-style: normal;font-variant-ligatures: normal;font-variant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-indent: 0px;text-transform: none;widows: 2;word-spacing: 0px;-webkit-text-stroke-width: 0px;white-space: normal;background-color: rgb(255, 255, 255);text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;"
+                          },
+                          "children": []
+                        },
+                        {
+                          "type": "text",
+                          "text": "特别说明：本次测试仅针对前文提到的数独棋盘的图片识别，不够全面严谨，仅供参考。",
+                          "flattenedTags": [
+                            "p",
+                            "span",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        },
+                        {
+                          "type": "element",
+                          "tag": "br",
+                          "attributes": {},
+                          "children": [],
+                          "flattenedTags": [
+                            "section",
+                            "span"
+                          ],
+                          "flattenedClasses": []
+                        }
+                      ]
+                    }
+                  ],
+                  "flattenedTags": [
+                    "div",
+                    "div"
+                  ],
+                  "flattenedClasses": [
+                    "rich_media_area_primary",
+                    "rich_media_area_primary_inner"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "继续滑动看下一个",
+              "flattenedTags": [
+                "div",
+                "div",
+                "span"
+              ],
+              "flattenedClasses": [
+                "wx_stream_article_slide_tip",
+                "wx_stream_article_slide_tip_wrp",
+                "wx_stream_article_slide_tip_text"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attributes": {
+            "class": "wx_expand_article ",
+            "id": "wx_expand_article"
+          },
+          "children": [
+            {
+              "type": "element",
+              "tag": "div",
+              "attributes": {
+                "class": "wx_expand_article_bottom_area",
+                "id": "wx_expand_bottom"
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "button",
+                  "attributes": {
+                    "class": "wx_expand_article_button",
+                    "id": "wx_expand_article_button"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "轻触阅读原文"
+                    }
+                  ],
+                  "flattenedTags": [
+                    "div"
+                  ],
+                  "flattenedClasses": [
+                    "wx_expand_article_button_wrap"
+                  ]
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attributes": {
+                    "class": "wx_follow_media weui-flex weui-flex_align-center"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "img",
+                      "attributes": {
+                        "src": "http://mmbiz.qpic.cn/mmbiz_png/csq5yXgaUWuc8lGabpq1MB203RgxsfLeS3wMcTgxEVYcgKf1ICYtM5tXI8HBPIibAGwTYDL1dak77e0paa53jsw/0?wx_fmt=png",
+                        "alt": "",
+                        "class": "wx_follow_avatar_pic"
+                      },
+                      "children": [],
+                      "flattenedTags": [
+                        "div",
+                        "span"
+                      ],
+                      "flattenedClasses": [
+                        "wx_follow_hd",
+                        "wx_follow_avatar"
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "前端培训",
+                      "flattenedTags": [
+                        "div",
+                        "div",
+                        "div"
+                      ],
+                      "flattenedClasses": [
+                        "wx_follow_bd weui-flex__item",
+                        "wx_follow_info",
+                        "wx_follow_nickname"
+                      ]
+                    }
+                  ],
+                  "flattenedTags": [
+                    "div",
+                    "div",
+                    "div",
+                    "div",
+                    "div",
+                    "div"
+                  ],
+                  "flattenedClasses": [
+                    "stream_bottom_bar_wrp",
+                    "bottom_bar_placeholder",
+                    "wx_follow_context wx_follow_primary wx_follow_smart wx_follow_top wx_follow_bottom",
+                    "function_mod js_function_mod wx_tap_cell",
+                    "function_mod_inner js_function_mod_inner",
+                    "function_bd"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "向上滑动看下一个",
+              "flattenedTags": [
+                "div",
+                "div",
+                "div",
+                "span"
+              ],
+              "flattenedClasses": [
+                "wx_expand_article_slide_tip",
+                "wx_stream_article_slide_tip",
+                "wx_stream_article_slide_tip_wrp",
+                "wx_stream_article_slide_tip_text"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

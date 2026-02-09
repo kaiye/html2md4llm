@@ -108,6 +108,7 @@ export function parse(html, removeAttributes = []) {
   // Post-processing: flatten pre/code, flatten containers, remove unwanted nodes
   const voidElements = ['br', 'hr', 'img'];
   const flattenableTags = ['div', 'span', 'section', 'p'];
+  const preserveEmptyElements = ['table', 'thead', 'tbody', 'tfoot', 'tr', 'th', 'td'];
 
   function flattenPreCode(node) {
     if (node.type === 'element' && (node.tag === 'pre' || node.tag === 'code')) {
@@ -181,6 +182,8 @@ export function parse(html, removeAttributes = []) {
         if (formattingElements.includes(child.tag) && !hasSubstantiveContent(child)) {
           return false;
         }
+        // Keep structural table elements even when cell content is empty
+        if (preserveEmptyElements.includes(child.tag)) return true;
         // Remove empty nodes
         if (child.children && child.children.length === 0) return false;
       }

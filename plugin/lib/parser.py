@@ -122,6 +122,7 @@ def parse(html: str, remove_attributes: Optional[List[str]] = None) -> Union[Dic
     # Post-processing: flatten pre/code, flatten containers, remove unwanted nodes
     void_elements_list = ['br', 'hr', 'img']
     flattenable_tags = {'div', 'span', 'section', 'p'}
+    preserve_empty_elements = {'table', 'thead', 'tbody', 'tfoot', 'tr', 'th', 'td'}
 
     def flatten_pre_code(node: Dict[str, Any]) -> None:
         """Flatten pre and code tags."""
@@ -186,8 +187,12 @@ def parse(html: str, remove_attributes: Optional[List[str]] = None) -> Union[Dic
                     remove_unwanted_nodes(child)
                     # Remove style attribute after filtering
                     child['attributes'].pop('style', None)
-                    # Remove empty nodes
-                    should_keep = bool(child.get('children'))
+                    # Keep structural table elements even when cell content is empty
+                    if child['tag'] in preserve_empty_elements:
+                        should_keep = True
+                    else:
+                        # Remove empty nodes
+                        should_keep = bool(child.get('children'))
 
             if should_keep:
                 filtered.append(child)
