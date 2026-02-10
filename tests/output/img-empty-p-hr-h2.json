@@ -1,0 +1,33 @@
+{
+  "type": "element",
+  "tag": "root",
+  "attributes": {},
+  "children": [
+    {
+      "type": "element",
+      "tag": "img",
+      "attributes": {
+        "src": "https://example.com/image.jpg",
+        "alt": "test image"
+      },
+      "children": []
+    },
+    {
+      "type": "element",
+      "tag": "hr",
+      "attributes": {},
+      "children": []
+    },
+    {
+      "type": "element",
+      "tag": "h2",
+      "attributes": {},
+      "children": [
+        {
+          "type": "text",
+          "text": "Section Title"
+        }
+      ]
+    }
+  ]
+}

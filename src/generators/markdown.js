@@ -1,5 +1,5 @@
 const inlineElements = ['span', 'a', 'strong', 'em', 'code', 'b', 'i'];
-const blockElements = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'ul', 'ol', 'pre', 'br', 'div', 'section', 'table'];
+const blockElements = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'ul', 'ol', 'pre', 'br', 'hr', 'img', 'div', 'section', 'table'];
 const tableSections = ['thead', 'tbody', 'tfoot'];
 
 function normalizeTableCell(text) {
@@ -114,7 +114,7 @@ export function generate(node, indent = 0) {
   }
 
   // If only one child and no special handling for this tag, pass through transparently
-  const hasSpecialHandling = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'ul', 'ol', 'pre', 'br', 'strong', 'b', 'em', 'i', 'code', 'a'].includes(tag);
+  const hasSpecialHandling = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'ul', 'ol', 'pre', 'br', 'hr', 'strong', 'b', 'em', 'i', 'code', 'a'].includes(tag);
   if (children.length === 1 && !hasSpecialHandling) {
     return generate(children[0], indent);
   }
@@ -206,6 +206,7 @@ export function generate(node, indent = 0) {
 
   // Line break
   if (tag === 'br') return '\n';
+  if (tag === 'hr') return '---';
 
   // Default: just return children
   return childText;

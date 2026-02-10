@@ -75,4 +75,14 @@ const result7 = main(html7);
 assert.strictEqual(result7, '说明\n\n```\ncode here\n```\n\n继续', '用例7: 代码块前后有空行');
 console.log('✓ 用例7: 代码块');
 
+// 用例 8: 图片 + 空段落 + hr + 标题
+const html8 = '<img src="https://example.com/image.jpg" alt="test image"><p></p><hr><h2>Section Title</h2>';
+const result8 = main(html8);
+assert.strictEqual(
+  result8,
+  '![test image](https://example.com/image.jpg)\n\n---\n\n## Section Title',
+  '用例8: hr应转成---，并保持图片与标题块级换行'
+);
+console.log('✓ 用例8: 图片 + hr + 标题');
+
 console.log('All Markdown spacing tests passed!');
