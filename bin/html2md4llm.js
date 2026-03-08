@@ -21,6 +21,7 @@ Options:
   --json                         Shortcut for --format json
   --markdown                     Shortcut for --format markdown
   -s, --strategy <list|article> Extraction strategy
+  -u, --unescape-html <mode>    Input unescape mode: auto|true|false (default: auto)
   -r, --remove-attrs <attrs>    Comma-separated attrs (e.g. aria-*,role)
   -h, --help                    Show help
   -v, --version                 Show version`;
@@ -34,6 +35,7 @@ function parseArgs(argv) {
     outputFile: undefined,
     outputFormat: 'markdown',
     strategy: undefined,
+    unescapeHTML: 'auto',
     removeAttributes: []
   };
 
@@ -82,6 +84,12 @@ function parseArgs(argv) {
 
     if (arg === '-s' || arg === '--strategy') {
       parsed.strategy = takeValue(arg, i);
+      i++;
+      continue;
+    }
+
+    if (arg === '-u' || arg === '--unescape-html') {
+      parsed.unescapeHTML = takeValue(arg, i);
       i++;
       continue;
     }
@@ -156,6 +164,11 @@ async function run() {
     throw new Error('Invalid --strategy value. Use "list" or "article".');
   }
 
+  const unescapeMode = String(args.unescapeHTML).toLowerCase();
+  if (unescapeMode !== 'auto' && unescapeMode !== 'true' && unescapeMode !== 'false') {
+    throw new Error('Invalid --unescape-html value. Use "auto", "true", or "false".');
+  }
+
   const hasStdin = !process.stdin.isTTY;
   let htmlInput;
 
@@ -173,6 +186,12 @@ async function run() {
 
   if (args.strategy) {
     options.strategy = args.strategy;
+  }
+
+  if (unescapeMode === 'auto') {
+    options.unescapeHTML = 'auto';
+  } else {
+    options.unescapeHTML = unescapeMode === 'true';
   }
 
   if (args.removeAttributes.length > 0) {

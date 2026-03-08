@@ -18,8 +18,17 @@ export function main(htmlInput, options = {}) {
     throw new Error('options.strategy must be \'list\', \'article\', or undefined');
   }
 
+  const unescapeHTML = options.unescapeHTML ?? 'auto';
+  if (unescapeHTML !== 'auto' && unescapeHTML !== true && unescapeHTML !== false) {
+    throw new Error('options.unescapeHTML must be \'auto\', true, or false');
+  }
+
+  const normalizedHtmlInput = shouldUnescapeHtml(htmlInput, unescapeHTML)
+    ? unescapeHtml(htmlInput)
+    : htmlInput;
+
   // Parse HTML to virtual DOM
-  let tree = parse(htmlInput, options.removeAttributes);
+  let tree = parse(normalizedHtmlInput, options.removeAttributes);
 
   // Apply extraction strategy
   if (strategy === 'list') {
@@ -39,6 +48,23 @@ export function main(htmlInput, options = {}) {
 
 export const html2md4llm = main;
 export default main;
+
+function shouldUnescapeHtml(htmlInput, mode) {
+  if (mode === true) return true;
+  if (mode === false) return false;
+
+  const trimmed = htmlInput.trim();
+  return trimmed.startsWith('&lt;') && trimmed.endsWith('&gt;');
+}
+
+function unescapeHtml(str) {
+  return str
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&amp;/g, '&');
+}
 
 function extractLargestList(node) {
   let largest = null;

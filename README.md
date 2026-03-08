@@ -48,6 +48,7 @@ cat ./input.html | npx html2md4llm > ./output.md
 - `options.outputFormat: 'markdown' | 'json'`：默认 `'markdown'`
 - `options.strategy: 'list' | 'article'`：可选提取策略
 - `options.removeAttributes: string[]`：按规则移除属性，如 `['aria-*', 'role']`
+- `options.unescapeHTML: 'auto' | true | false`：默认 `'auto'`。`auto` 时若输入去首尾空白后以 `&lt;` 开头且 `&gt;` 结尾，会先做一次全量 unescape。
 
 返回值：`string`（Markdown 文本或 JSON 字符串）
 
@@ -63,6 +64,7 @@ html2md4llm - [output.md] [options]
 - `--json`：等价于 `--format json`
 - `--markdown`：等价于 `--format markdown`
 - `-s, --strategy <list|article>`：内容提取策略
+- `-u, --unescape-html <auto|true|false>`：输入 HTML 反转义策略（默认 `auto`）
 - `-r, --remove-attrs <attrs>`：逗号分隔，如 `aria-*,role`
 - `-h, --help`：查看帮助
 - `-v, --version`：查看版本
@@ -75,6 +77,7 @@ html2md4llm - [output.md] [options]
 2. 需要结构化消费时使用 `outputFormat: 'json'`。
 3. 需要最简正文时按场景加 `strategy: 'article'` 或 `strategy: 'list'`。
 4. 需要清理无关属性时传 `removeAttributes`，例如 `['aria-*', 'role', 'data-*']`。
+5. 输入可能是转义 HTML（如 `&lt;h1&gt;Hello&lt;/h1&gt;`）时，保持默认 `unescapeHTML: 'auto'`；若要强制关闭则传 `false`。
 
 ## 开发
 
